@@ -1,91 +1,62 @@
-## <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,11,21,31&height=220&section=header&text=Ahmad%20Bilal&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Data%20Analyst%20%7C%20Analytics%20Engineer%20%7C%20Open-Source%20Contributor&descFontSize=20&descAlignY=60&descAlign=50" width="100%"/>
+<div align="center">
+  <!-- Dynamic Dynamic Dynamic Waving Header -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,12,24,30&height=220&section=header&text=Ahmad%20Bilal&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Data%20Analyst%20%7C%20Analytics%20Engineer%20%7C%20Open-Source%20Contributor&descFontSize=19&descAlignY=58&descAlign=50" width="100%"/>
 </div>
 
 <div align="center">
+  <!-- Interactive Animated Typing SVG -->
   <a href="https://github.com/AhmadBilalDSA">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&multiline=false&width=650&height=50&lines=Building+Scalable+Data+Pipelines;Automating+Analytics+%26+ETL+Workflows;Contributing+to+Open-Source+Python+Tooling" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2800&pause=1000&color=38BDF8&center=true&vCenter=true&multiline=false&width=700&height=45&lines=Transforming+Complex+Data+into+Actionable+Intelligence;High-Throughput+Pipelines+with+Python+%26+DuckDB;Automating+Developer+Workflows+%26+Open-Source+Tooling;Power+BI+Modeling+%7C+DAX+%7C+Modern+Data+Stack" alt="Typing SVG" />
   </a>
 </div>
 
 <p align="center">
-  <a href="https://github.com/AhmadBilalDSA?tab=repositories"><img src="https://img.shields.io/badge/Repositories-Public-22c55e?style=for-the-badge&logo=github&logoColor=white" /></a>
-  <a href="https://github.com/AhmadBilalDSA"><img src="https://img.shields.io/badge/Status-Active%20Contributor-38bdf8?style=for-the-badge&logo=git&logoColor=white" /></a>
-  <a href="https://github.com/AhmadBilalDSA"><img src="https://img.shields.io/badge/Focus-Data%20%26%20AI%20Automation-818cf8?style=for-the-badge&logo=python&logoColor=white" /></a>
+  <a href="https://github.com/AhmadBilalDSA?tab=repositories"><img src="https://img.shields.io/badge/GitHub-Profile-0f172a?style=for-the-badge&logo=github&logoColor=38bdf8" /></a>
+  <a href="https://github.com/AhmadBilalDSA"><img src="https://img.shields.io/badge/Focus-Data%20Engineering%20%26%20BI-0f172a?style=for-the-badge&logo=python&logoColor=38bdf8" /></a>
+  <a href="https://github.com/AhmadBilalDSA"><img src="https://img.shields.io/badge/Status-Active%20Contributor-0f172a?style=for-the-badge&logo=git&logoColor=22c55e" /></a>
 </p>
 
 ---
 
-### 🧑‍💻 About Me
+### 📊 Executive Summary
 
-- 📊 **Specialization:** End-to-end data analysis, business intelligence modeling, and analytics pipelines.
-- ⚡ **Current Focus:** Building automated GitHub contribution engines and data exploration tooling with Python.
-- 🛠️ **Open Source:** Developing utilities and tests for high-performance data ecosystems like Polars, SQLFluff, and DuckDB.
-- 🎯 **Engineering Principles:** Clean code, robust test coverage, and reproducible data workflows.
+I am a **Data Analyst and Analytics Specialist** with a strong foundation in financial analytics, relational modeling, and automated data engineering pipelines. I bridge the gap between raw database architectures and actionable executive decision-making.
 
----
-
-### 🛠️ Tech Stack & Tooling
-
-<div align="left">
-
-#### Languages & Core Computing
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/DAX-EAA722?style=flat-square&logo=microsoft&logoColor=white" />
-  <img src="https://img.shields.io/badge/Bash/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white" />
-</p>
-
-#### Data Manipulation, Modeling & Machine Learning
-<p>
-  <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" />
-  <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" />
-  <img src="https://img.shields.io/badge/DuckDB-FFF000?style=flat-square&logo=duckdb&logoColor=black" />
-  <img src="https://img.shields.io/badge/Polars-CD792C?style=flat-square&logo=polars&logoColor=white" />
-  <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white" />
-</p>
-
-#### BI, Web Apps & Pipelines
-<p>
-  <img src="https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black" />
-  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
-  <img src="https://img.shields.io/badge/dbt-FF694B?style=flat-square&logo=dbt&logoColor=white" />
-</p>
-
-#### Developer Operations & Tools
-<p>
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white" />
-</p>
-
-</div>
+- 🔭 **Current Focus:** Building automated open-source contribution engines and exploratory data pipelines.
+- ⚙️ **Stack Specialization:** Python, SQL, Power BI (DAX / Tabular Data Models), DuckDB, Polars, and Scikit-Learn.
+- 💡 **Engineering Standard:** Clean, reproducible scripts, automated unit testing (`pytest`), and resilient API consumers.
 
 ---
 
-### 🚀 Featured Open-Source Projects
+### 🛠️ Technical Competencies
 
 <table>
   <tr>
-    <td width="50%">
-      <h3 align="center">🔍 GitHub Issue Hunter</h3>
+    <td width="33%" valign="top">
+      <h4 align="center">Core & Languages</h4>
       <p align="center">
-        An automated Python CLI & API engine that scans 14+ major data and ML repositories for curated beginner-friendly and help-wanted issues with rate-limiting safety.
-      </p>
-      <p align="center">
-        <a href="https://github.com/AhmadBilalDSA/github-issue-hunter"><b>Explore Repository →</b></a>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /><br/>
+        <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white" /><br/>
+        <img src="https://img.shields.io/badge/DAX-EAA722?style=flat-square&logo=microsoft&logoColor=white" /><br/>
+        <img src="https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white" />
       </p>
     </td>
-    <td width="50%">
-      <h3 align="center">⚡ Analytics Automation Pipelines</h3>
+    <td width="33%" valign="top">
+      <h4 align="center">Analytics & Engines</h4>
       <p align="center">
-        High-throughput data extraction, transformation, and automated reporting frameworks built with Python, DuckDB, and Parquet.
+        <img src="https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black" /><br/>
+        <img src="https://img.shields.io/badge/DuckDB-FFF000?style=flat-square&logo=duckdb&logoColor=black" /><br/>
+        <img src="https://img.shields.io/badge/Polars-CD792C?style=flat-square&logo=polars&logoColor=white" /><br/>
+        <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" />
       </p>
+    </td>
+    <td width="33%" valign="top">
+      <h4 align="center">Pipelines & Dev Tools</h4>
       <p align="center">
-        <a href="https://github.com/AhmadBilalDSA"><b>View Projects →</b></a>
+        <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" /><br/>
+        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" /><br/>
+        <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" /><br/>
+        <img src="https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white" />
       </p>
     </td>
   </tr>
@@ -93,16 +64,53 @@
 
 ---
 
-### 📊 GitHub Activity & Metrics
+### 🚀 Highlighted Repositories
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3 align="center">🎯 GitHub Issue Hunter</h3>
+      <p align="center">
+        <img src="https://img.shields.io/badge/Python-3.10+-38BDF8?style=flat-square&logo=python" />
+        <img src="https://img.shields.io/badge/GitHub%20API-REST-orange?style=flat-square" />
+        <img src="https://img.shields.io/badge/Status-Maintained-success?style=flat-square" />
+      </p>
+      <p>
+        An automated Python CLI and API scanner that surveys curated open-source data ecosystems (Polars, DuckDB, Scikit-Learn, SQLFluff) to discover and aggregate beginner-friendly starter issues while respecting API rate-limits and backoffs.
+      </p>
+      <p align="center">
+        <a href="https://github.com/AhmadBilalDSA/github-issue-hunter"><b>View Codebase →</b></a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3 align="center">⚡ High-Throughput Analytics Workflows</h3>
+      <p align="center">
+        <img src="https://img.shields.io/badge/DuckDB-In--Memory-yellow?style=flat-square" />
+        <img src="https://img.shields.io/badge/Parquet-Compressed-blue?style=flat-square" />
+        <img src="https://img.shields.io/badge/Power%20BI-Semantic-F2C811?style=flat-square" />
+      </p>
+      <p>
+        Modular analytics engines and statistical models built for exploratory analysis, ETL execution, and clean schema transformations for structured tabular datasets.
+      </p>
+      <p align="center">
+        <a href="https://github.com/AhmadBilalDSA"><b>Explore Projects →</b></a>
+      </p>
+    </td>
+  </tr>
+</table>
+
+---
+
+### 📈 Contribution Activity & GitHub Metrics
 
 <div align="center">
   <table border="0">
     <tr>
       <td>
-        <img height="180em" src="https://github-readme-stats.vercel.app/api?username=AhmadBilalDSA&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&title_color=38bdf8&text_color=94a3b8&icon_color=38bdf8&bg_color=0f172a" alt="GitHub Stats" />
+        <img height="185em" src="https://github-readme-stats.vercel.app/api?username=AhmadBilalDSA&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&title_color=38bdf8&text_color=94a3b8&icon_color=38bdf8&bg_color=0f172a" alt="Ahmad's GitHub Stats" />
       </td>
       <td>
-        <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AhmadBilalDSA&layout=compact&theme=tokyonight&hide_border=true&title_color=38bdf8&text_color=94a3b8&bg_color=0f172a" alt="Top Languages" />
+        <img height="185em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AhmadBilalDSA&layout=compact&theme=tokyonight&hide_border=true&title_color=38bdf8&text_color=94a3b8&bg_color=0f172a" alt="Top Languages" />
       </td>
     </tr>
   </table>
@@ -115,21 +123,6 @@
 ---
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,11,21,31&height=100&section=footer" width="100%"/>
+  <!-- Clean Footer Wave -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,12,24,30&height=100&section=footer" width="100%"/>
 </div>
- there 👋
-
-<!--
-**AhmadBilalDSA/AhmadBilalDSA** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
