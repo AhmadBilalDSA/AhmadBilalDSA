@@ -122,12 +122,17 @@ I am a **Data Analyst and Analytics Specialist** with a strong foundation in fin
 
 ---
 
+---
+
 ### 🐍 Contribution Activity Graph
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/AhmadBilalDSA/AhmadBilalDSA/output/github-contribution-grid-snake-dark.svg" alt="GitHub Contribution Snake" width="100%" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AhmadBilalDSA/AhmadBilalDSA/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AhmadBilalDSA/AhmadBilalDSA/output/github-contribution-grid-snake.svg">
+    <img alt="GitHub Contribution Snake Animation" src="https://raw.githubusercontent.com/AhmadBilalDSA/AhmadBilalDSA/output/github-contribution-grid-snake-dark.svg" width="100%" />
+  </picture>
 </div>
-
 ---
 
 <div align="center">
