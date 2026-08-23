@@ -68,32 +68,43 @@ I am a **Data Analyst and Analytics Specialist** with a strong foundation in fin
 
 <table>
   <tr>
-    <td width="50%" valign="top">
+    <td width="33%" valign="top">
       <h3 align="center">🎯 GitHub Issue Hunter</h3>
       <p align="center">
         <img src="https://img.shields.io/badge/Python-3.10+-38BDF8?style=flat-square&logo=python" />
         <img src="https://img.shields.io/badge/GitHub%20API-REST-orange?style=flat-square" />
-        <img src="https://img.shields.io/badge/Status-Maintained-success?style=flat-square" />
       </p>
       <p>
-        An automated Python CLI and API scanner that surveys curated open-source data ecosystems (Polars, DuckDB, Scikit-Learn, SQLFluff) to discover and aggregate beginner-friendly starter issues while respecting API rate-limits and backoffs.
+        Automated CLI & API scanner querying open-source ecosystems (Polars, DuckDB, Scikit-Learn) with rate-limit backoffs.
       </p>
       <p align="center">
         <a href="https://github.com/AhmadBilalDSA/github-issue-hunter"><b>View Codebase →</b></a>
       </p>
     </td>
-    <td width="50%" valign="top">
+    <td width="33%" valign="top">
       <h3 align="center">⚡ Fast Analytics Engine</h3>
       <p align="center">
         <img src="https://img.shields.io/badge/DuckDB-In--Memory-yellow?style=flat-square" />
         <img src="https://img.shields.io/badge/Streamlit-Live%20App-FF4B4B?style=flat-square" />
-        <img src="https://img.shields.io/badge/Polars-Vectorized-CD792C?style=flat-square" />
       </p>
       <p>
-        High-performance in-memory SQL analytics dashboard powered by DuckDB, Polars, and Streamlit to execute sub-millisecond ad-hoc queries on tabular datasets.
+        Vectorized in-memory SQL dashboard powered by DuckDB & Polars executing sub-millisecond ad-hoc queries on tabular datasets.
       </p>
       <p align="center">
         <a href="https://github.com/AhmadBilalDSA/fast-analytics-engine"><b>View Codebase →</b></a>
+      </p>
+    </td>
+    <td width="33%" valign="top">
+      <h3 align="center">📈 Financial Analytics Pipeline</h3>
+      <p align="center">
+        <img src="https://img.shields.io/badge/ETL-Automated-green?style=flat-square" />
+        <img src="https://img.shields.io/badge/CI-Pytest-38BDF8?style=flat-square" />
+      </p>
+      <p>
+        Financial market ETL pipeline using DuckDB SQL window calculations, Parquet persistence, and Plotly dashboards.
+      </p>
+      <p align="center">
+        <a href="https://github.com/AhmadBilalDSA/financial-analytics-pipeline"><b>View Codebase →</b></a>
       </p>
     </td>
   </tr>
