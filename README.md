@@ -44,6 +44,7 @@ I am a **Data Analyst and Analytics Specialist** with a strong foundation in fin
     <td width="33%" valign="top">
       <h4 align="center">Analytics & Engines</h4>
       <p align="center">
+	<img src="https://img.shields.io/badge/dbt-FF694B?style=flat-square&logo=dbt&logoColor=white" /><br/>
         <img src="https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black" /><br/>
         <img src="https://img.shields.io/badge/DuckDB-FFF000?style=flat-square&logo=duckdb&logoColor=black" /><br/>
         <img src="https://img.shields.io/badge/Polars-CD792C?style=flat-square&logo=polars&logoColor=white" /><br/>
