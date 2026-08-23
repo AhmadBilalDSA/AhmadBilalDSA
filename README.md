@@ -1,5 +1,5 @@
 <div align="center">
-  <!-- Dynamic Dynamic Dynamic Waving Header -->
+  <!-- Dynamic Waving Header -->
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,12,24,30&height=220&section=header&text=Ahmad%20Bilal&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Data%20Analyst%20%7C%20Analytics%20Engineer%20%7C%20Open-Source%20Contributor&descFontSize=19&descAlignY=58&descAlign=50" width="100%"/>
 </div>
 
@@ -83,17 +83,17 @@ I am a **Data Analyst and Analytics Specialist** with a strong foundation in fin
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3 align="center">⚡ High-Throughput Analytics Workflows</h3>
+      <h3 align="center">⚡ Fast Analytics Engine</h3>
       <p align="center">
         <img src="https://img.shields.io/badge/DuckDB-In--Memory-yellow?style=flat-square" />
-        <img src="https://img.shields.io/badge/Parquet-Compressed-blue?style=flat-square" />
-        <img src="https://img.shields.io/badge/Power%20BI-Semantic-F2C811?style=flat-square" />
+        <img src="https://img.shields.io/badge/Streamlit-Live%20App-FF4B4B?style=flat-square" />
+        <img src="https://img.shields.io/badge/Polars-Vectorized-CD792C?style=flat-square" />
       </p>
       <p>
-        Modular analytics engines and statistical models built for exploratory analysis, ETL execution, and clean schema transformations for structured tabular datasets.
+        High-performance in-memory SQL analytics dashboard powered by DuckDB, Polars, and Streamlit to execute sub-millisecond ad-hoc queries on tabular datasets.
       </p>
       <p align="center">
-        <a href="https://github.com/AhmadBilalDSA"><b>Explore Projects →</b></a>
+        <a href="https://github.com/AhmadBilalDSA/fast-analytics-engine"><b>View Codebase →</b></a>
       </p>
     </td>
   </tr>
@@ -118,6 +118,14 @@ I am a **Data Analyst and Analytics Specialist** with a strong foundation in fin
 
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=AhmadBilalDSA&theme=tokyonight&hide_border=true&background=0f172a&ring=38bdf8&fire=38bdf8&currStreakLabel=38bdf8" alt="GitHub Streak" />
+</div>
+
+---
+
+### 🐍 Contribution Activity Graph
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/AhmadBilalDSA/AhmadBilalDSA/output/github-contribution-grid-snake-dark.svg" alt="GitHub Contribution Snake" width="100%" />
 </div>
 
 ---
