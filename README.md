@@ -1,63 +1,80 @@
 <div align="center">
-  <!-- Dynamic Waving Header -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,12,24,30&height=220&section=header&text=Ahmad%20Bilal&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Data%20Analyst%20%7C%20Analytics%20Engineer%20%7C%20Open-Source%20Contributor&descFontSize=19&descAlignY=58&descAlign=50" width="100%"/>
+  <!-- Dynamic Capsule Header Wave Banner -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=220&section=header&text=Ahmad%20Bilal&fontSize=52&fontAlignY=38&desc=Analytics%20Engineer%20%7C%20Data%20Platform%20%26%20OLAP%20Specialist&descSize=20&descAlignY=62&animation=fadeIn" width="100%" alt="Header Banner" />
+
+  <!-- Animated Typing Banner -->
+  <a href="https://github.com/AhmadBilalDSA">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&pause=1000&color=00D2FF&center=true&vCenter=true&width=580&lines=High-Performance+OLAP+%26+DuckDB;Automated+ETL+Pipelines+%2B+dbt+Core;Power+BI+%2B+DAX+%2B+Polars;Open+Source+Contributor" alt="Typing SVG" />
+  </a>
+
+  <p align="center">
+    <a href="https://linkedin.com"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin" alt="LinkedIn" /></a>
+    <a href="https://github.com/AhmadBilalDSA"><img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github" alt="GitHub" /></a>
+    <a href="mailto:ahmad@example.com"><img src="https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  </p>
 </div>
 
+---
+
+### 🛠️ Core Engineering Stack
+
 <div align="center">
-  <!-- Interactive Animated Typing SVG -->
-  <a href="https://github.com/AhmadBilalDSA">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2800&pause=1000&color=38BDF8&center=true&vCenter=true&multiline=false&width=700&height=45&lines=Transforming+Complex+Data+into+Actionable+Intelligence;High-Throughput+Pipelines+with+Python+%26+DuckDB;Automating+Developer+Workflows+%26+Open-Source+Tooling;Power+BI+Modeling+%7C+DAX+%7C+Modern+Data+Stack" alt="Typing SVG" />
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=python,postgres,git,github,docker,vscode,bash,markdown&theme=dark" alt="Tech Stack Icons" />
   </a>
 </div>
 
-<p align="center">
-  <a href="https://github.com/AhmadBilalDSA?tab=repositories"><img src="https://img.shields.io/badge/GitHub-Profile-0f172a?style=for-the-badge&logo=github&logoColor=38bdf8" /></a>
-  <a href="https://github.com/AhmadBilalDSA"><img src="https://img.shields.io/badge/Focus-Data%20Engineering%20%26%20BI-0f172a?style=for-the-badge&logo=python&logoColor=38bdf8" /></a>
-  <a href="https://github.com/AhmadBilalDSA"><img src="https://img.shields.io/badge/Status-Active%20Contributor-0f172a?style=for-the-badge&logo=git&logoColor=22c55e" /></a>
-</p>
+<br />
+
+| Domain | Tooling & Core Technologies |
+| :--- | :--- |
+| **Data Warehousing & OLAP** | **DuckDB**, **dbt Core**, **Polars**, **SQL**, PostgreSQL, Parquet |
+| **Data Quality & Testing** | Schema Testing, Data Integrity Verification, Pytest |
+| **BI & Analytics Engineering** | **Power BI**, DAX, Power Query, **Streamlit**, GitHub Actions CI/CD |
 
 ---
 
-### 📊 Executive Summary
-
-I am a **Data Analyst and Analytics Specialist** with a strong foundation in financial analytics, relational modeling, and automated data engineering pipelines. I bridge the gap between raw database architectures and actionable executive decision-making.
-
-- 🔭 **Current Focus:** Building automated open-source contribution engines and exploratory data pipelines.
-- ⚙️ **Stack Specialization:** Python, SQL, Power BI (DAX / Tabular Data Models), DuckDB, Polars, and Scikit-Learn.
-- 💡 **Engineering Standard:** Clean, reproducible scripts, automated unit testing (`pytest`), and resilient API consumers.
-
----
-
-### 🛠️ Technical Competencies
+### 🚀 Featured Engineering Projects
 
 <table>
   <tr>
-    <td width="33%" valign="top">
-      <h4 align="center">Core & Languages</h4>
-      <p align="center">
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /><br/>
-        <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white" /><br/>
-        <img src="https://img.shields.io/badge/DAX-EAA722?style=flat-square&logo=microsoft&logoColor=white" /><br/>
-        <img src="https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white" />
+    <td width="50%" valign="top">
+      <h3>⚡ <a href="https://github.com/AhmadBilalDSA/fast-analytics-engine">Fast Analytics Engine</a></h3>
+      <p>High-performance embedded OLAP engine running sub-second aggregation queries across compressed multi-million row Parquet datasets with zero cloud database overhead.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-3.11-3776AB?style=flat-square&logo=python&logoColor=white" />
+        <img src="https://img.shields.io/badge/DuckDB-OLAP-FFF000?style=flat-square&logo=duckdb&logoColor=black" />
+        <img src="https://img.shields.io/badge/Streamlit-UI-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" />
       </p>
     </td>
-    <td width="33%" valign="top">
-      <h4 align="center">Analytics & Engines</h4>
-      <p align="center">
-	<img src="https://img.shields.io/badge/dbt-FF694B?style=flat-square&logo=dbt&logoColor=white" /><br/>
-        <img src="https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black" /><br/>
-        <img src="https://img.shields.io/badge/DuckDB-FFF000?style=flat-square&logo=duckdb&logoColor=black" /><br/>
-        <img src="https://img.shields.io/badge/Polars-CD792C?style=flat-square&logo=polars&logoColor=white" /><br/>
-        <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" />
+    <td width="50%" valign="top">
+      <h3>📈 <a href="https://github.com/AhmadBilalDSA/financial-analytics-pipeline">Financial Analytics Pipeline</a></h3>
+      <p>Automated market data ETL pipeline calculating rolling 30-day volatility, SMA metrics, and drawdown distributions via DuckDB window functions, deployed live on <b>Streamlit Cloud</b>.</p>
+      <p>
+        <a href="https://ahmad-financial-pipeline.streamlit.app/">
+          <img src="https://img.shields.io/badge/Streamlit%20Cloud-Live%20Demo-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" />
+        </a>
+        <img src="https://img.shields.io/badge/ETL-Automated-blue?style=flat-square" />
       </p>
     </td>
-    <td width="33%" valign="top">
-      <h4 align="center">Pipelines & Dev Tools</h4>
-      <p align="center">
-        <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" /><br/>
-        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" /><br/>
-        <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" /><br/>
-        <img src="https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white" />
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🧱 <a href="https://github.com/AhmadBilalDSA/dbt-duckdb-analytics">dbt DuckDB Analytics</a></h3>
+      <p>Production-grade dimensional data warehouse featuring staging views, dimensional marts, automated data tests, and interactive data lineage DAG documentation published on <b>GitHub Pages</b>.</p>
+      <p>
+        <a href="https://ahmadbilaldsa.github.io/dbt-duckdb-analytics/">
+          <img src="https://img.shields.io/badge/GitHub%20Pages-Live%20Docs-222222?style=flat-square&logo=github&logoColor=white" />
+        </a>
+        <img src="https://img.shields.io/badge/dbt-Core-FF694B?style=flat-square&logo=dbt&logoColor=white" />
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🎯 <a href="https://github.com/AhmadBilalDSA/github-issue-hunter">GitHub Issue Hunter</a></h3>
+      <p>Command-line search engine built with <b>Click</b> and the GitHub REST API to scan, filter, and score unclaimed starter tickets across data engineering repositories.</p>
+      <p>
+        <img src="https://img.shields.io/badge/CLI-Tool-success?style=flat-square" />
+        <img src="https://img.shields.io/badge/GitHub%20API-REST-181717?style=flat-square&logo=github&logoColor=white" />
       </p>
     </td>
   </tr>
@@ -65,85 +82,23 @@ I am a **Data Analyst and Analytics Specialist** with a strong foundation in fin
 
 ---
 
-### 🚀 Highlighted Repositories
+### 🌟 Upstream Open Source Contributions
 
-<table>
-  <tr>
-    <td width="33%" valign="top">
-      <h3 align="center">🎯 GitHub Issue Hunter</h3>
-      <p align="center">
-        <img src="https://img.shields.io/badge/Python-3.10+-38BDF8?style=flat-square&logo=python" />
-        <img src="https://img.shields.io/badge/GitHub%20API-REST-orange?style=flat-square" />
-      </p>
-      <p>
-        Automated CLI & API scanner querying open-source ecosystems (Polars, DuckDB, Scikit-Learn) with rate-limit backoffs.
-      </p>
-      <p align="center">
-        <a href="https://github.com/AhmadBilalDSA/github-issue-hunter"><b>View Codebase →</b></a>
-      </p>
-    </td>
-    <td width="33%" valign="top">
-      <h3 align="center">⚡ Fast Analytics Engine</h3>
-      <p align="center">
-        <img src="https://img.shields.io/badge/DuckDB-In--Memory-yellow?style=flat-square" />
-        <img src="https://img.shields.io/badge/Streamlit-Live%20App-FF4B4B?style=flat-square" />
-      </p>
-      <p>
-        Vectorized in-memory SQL dashboard powered by DuckDB & Polars executing sub-millisecond ad-hoc queries on tabular datasets.
-      </p>
-      <p align="center">
-        <a href="https://github.com/AhmadBilalDSA/fast-analytics-engine"><b>View Codebase →</b></a>
-      </p>
-    </td>
-    <td width="33%" valign="top">
-      <h3 align="center">📈 Financial Analytics Pipeline</h3>
-      <p align="center">
-        <img src="https://img.shields.io/badge/ETL-Automated-green?style=flat-square" />
-        <img src="https://img.shields.io/badge/CI-Pytest-38BDF8?style=flat-square" />
-      </p>
-      <p>
-        Financial market ETL pipeline using DuckDB SQL window calculations, Parquet persistence, and Plotly dashboards.
-      </p>
-      <p align="center">
-        <a href="https://github.com/AhmadBilalDSA/financial-analytics-pipeline"><b>View Codebase →</b></a>
-      </p>
-    </td>
-  </tr>
-</table>
+* 🎯 **[`scikit-learn/scikit-learn #34800`](https://github.com/scikit-learn/scikit-learn/pull/34800)**  
+  *Feature Selection Docstring Patch:* Clarified in-place continuous feature mutation semantics when `copy=False` in `mutual_info_regression` and `mutual_info_classif`.
 
 ---
 
-### 📈 Contribution Activity & GitHub Metrics
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=AhmadBilalDSA&show_icons=true&theme=tokyonight&hide_border=true&title_color=38bdf8&text_color=94a3b8&icon_color=38bdf8&bg_color=0f172a" alt="GitHub Stats" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AhmadBilalDSA&layout=compact&theme=tokyonight&hide_border=true&title_color=38bdf8&text_color=94a3b8&bg_color=0f172a" alt="Top Languages" width="48%" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AhmadBilalDSA&theme=tokyonight&hide_border=true&background=0f172a&ring=38bdf8&fire=38bdf8&currStreakLabel=38bdf8" alt="GitHub Streak" width="97%" />
-</p>
+### 📊 Activity & Engineering Metrics
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AhmadBilalDSA&theme=tokyonight&hide_border=true&background=0f172a&ring=38bdf8&fire=38bdf8&currStreakLabel=38bdf8" alt="GitHub Streak" />
+  <img src="https://github-readme-stats.vercel.app/api?username=AhmadBilalDSA&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AhmadBilalDSA&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" width="42%" />
 </div>
-
----
-
----
-
-### 🐍 Contribution Activity Graph
 
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AhmadBilalDSA/AhmadBilalDSA/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AhmadBilalDSA/AhmadBilalDSA/output/github-contribution-grid-snake.svg">
-    <img alt="GitHub Contribution Snake Animation" src="https://raw.githubusercontent.com/AhmadBilalDSA/AhmadBilalDSA/output/github-contribution-grid-snake-dark.svg" width="100%" />
-  </picture>
+  <img src="https://streak-stats.demolab.com?user=AhmadBilalDSA&theme=tokyonight&hide_border=true" alt="GitHub Streak" width="91%" />
 </div>
----
 
-<div align="center">
-  <!-- Clean Footer Wave -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,12,24,30&height=100&section=footer" width="100%"/>
-</div>
+<!-- Footer Wave Decoration -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=100&section=footer" width="100%" alt="Footer Banner" />
