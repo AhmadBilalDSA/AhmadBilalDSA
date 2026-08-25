@@ -1,16 +1,16 @@
 <div align="center">
 
-  <!-- Dynamic Animated Typing Header -->
+  <!-- Dynamic Typing Header -->
   <a href="https://github.com/AhmadBilalDSA">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=2800&pause=900&color=38BDF8&center=true&vCenter=true&multiline=true&width=800&height=110&lines=Hey%2C+I'm+Ahmad+Bilal+%F0%9F%91%8B;Data+Analyst+%26+Analytics+Engineer;Open+Source+Data+Systems+Contributor;Specialized+in+DuckDB%2C+SQLGlot+%26+Modern+BI" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=2800&pause=900&color=38BDF8&center=true&vCenter=true&multiline=true&width=800&height=100&lines=Hey%2C+I'm+Ahmad+Bilal+%F0%9F%91%8B;Data+Analyst+%26+Analytics+Engineer;Open+Source+Data+Systems+Contributor;Specialized+in+DuckDB%2C+SQLGlot+%26+Modern+BI" alt="Typing Header" />
   </a>
 
-<!-- Animated Dynamic Banner -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:1e293b&height=180&section=header&text=Architecting%20Modern%20Data%20Engines%20%26%20Compilers&fontSize=22&fontColor=38bdf8&animation=fadeIn&fontAlignY=38" width="100%" alt="Header Banner" />
+  <br/>
 
+  <!-- Badges -->
   <p align="center">
     <a href="https://linkedin.com"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-    <a href="mailto:contact@example.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" /></a>
+    <a href="mailto:kierninja@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" /></a>
     <img src="https://img.shields.io/badge/Engine-DuckDB_Core-FFF000?style=for-the-badge&logo=duckdb&logoColor=000000" alt="DuckDB" />
     <img src="https://img.shields.io/badge/Status-Tier_1_OSS_Contributor-10B981?style=for-the-badge&logo=git&logoColor=white" alt="OSS Status" />
   </p>
