@@ -6,7 +6,7 @@
   </a>
 
   <!-- Animated Dynamic Banner -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=10,18,35,80&height=200&section=header&text=Architecting%20Modern%20Data%20Engines%20%26%20Compilers&fontSize=22&fontColor=ffffff&animation=fadeIn&fontAlignY=36" width="100%" alt="Header Banner"/>
+<img src="https://raw.githubusercontent.com/AhmadBilalDSA/AhmadBilalDSA/main/banner.svg" onerror="this.src='https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:1e293b&height=180&section=header&text=Building%20High-Performance%20Data%20Pipelines&fontSize=22&fontColor=38bdf8&animation=fadeIn&fontAlignY=38'" width="100%" alt="Header Banner"/>type=waving&color=gradient&customColorList=10,18,35,80&height=200&section=header&text=Architecting%20Modern%20Data%20Engines%20%26%20Compilers&fontSize=22&fontColor=ffffff&animation=fadeIn&fontAlignY=36" width="100%" alt="Header Banner"/>
 
   <p align="center">
     <a href="https://linkedin.com"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
