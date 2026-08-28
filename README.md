@@ -81,6 +81,18 @@ I actively contribute to the core infrastructure of major Python data ecosystems
 
 ---
 
+### 🚀 Featured Data Science & Machine Learning Projects
+
+| 📊 Project | ⚙️ Stack | 💡 Core Impact & Scope |
+| :--- | :--- | :--- |
+| **KSE-100 Financial Sentiment Analysis** | Python (NLTK), Pandas, APIs, Tableau | Built an automated news-scraping pipeline and used NLP sentiment analysis to correlate public news trends with KSE-100 stock price movements. |
+| **Predictive Modeling of Employee Turnover** | Python, Scikit-learn, Random Forest, Tableau | Analyzed HR metrics, engineered classification features, and deployed a tuned Random Forest model to flag employee attrition risk factors. |
+| **SpaceX Falcon 9 Landing Prediction** | Python, SQL, REST APIs, Plotly Dash | Executed end-to-end data collection, wrangling, and multi-model classification (SVM, Logistic Regression) visualized via an interactive web dashboard. |
+| **Ames Housing Real Estate Valuation** | Python, Pandas, XGBoost, Feature Engineering | Trained high-performance regression models handling 80+ features, utilizing log transformations and feature creation to minimize pricing error bounds. |
+| **Instacart Market Basket Analysis** | Pandas, Seaborn, EDA | Processed over 1M records using heavy `groupby` aggregations to map multi-product associations and user reorder frequencies. |
+
+---
+
 ### 🛠️ Personal Engineering & Local Data Utilities
 
 I design and build high-performance, air-gapped local-first tools for developers and data teams:
@@ -96,20 +108,26 @@ I design and build high-performance, air-gapped local-first tools for developers
 
 ### 👨‍💻 Professional Experience
 
-* 🏫 **Power BI Developer & Instructor | PNY Trainings (NAVTTC)**
-  * Engineered and delivered a comprehensive technical curriculum in Power BI, SQL, and Python; established best practices for ETL pipelines and advanced data modeling.
-* 🍕 **Junior Data Scientist | Timmy's Pizza**
+* 🏫 **Power BI Developer & Instructor | PNY Trainings (NAVTTC)** *(Feb 2026 – May 2026)*
+  * Engineered and delivered comprehensive technical curriculum in Power BI, SQL, and Python; established best practices for ETL pipelines and advanced data modeling.
+* 🍕 **Junior Data Scientist | Timmy's Pizza** *(Nov 2023 – Dec 2025)*
   * Optimized local delivery routes, staffing schedules, and supply chain visibility using Pandas and interactive Power BI dashboards.
+* 💻 **Data Analyst Intern | PNY Trainings** *(Jun 2025 – Present)*
+  * Spearheaded a data-driven marketing analysis for a key e-commerce client, leveraging Power BI and Advanced Excel to project a 15% increase in customer engagement.
+  * Automated a reporting pipeline using Python (Pandas) and SQL, reducing manual data processing for weekly sales reports by 10 hours per month and improving efficiency by 30%.
 * ⛽ **Procurement Intern | Sui Northern Gas Pipelines Limited (SNGPL)**
-  * Automated supplier performance KPI tracking and streamlined digital workflows, cutting document retrieval times by over 50%.
+  * Analyzed vendor performance metrics for a portfolio of 50+ suppliers, creating KPI dashboards in Excel that contributed to an estimated 5% reduction in procurement costs.
+  * Streamlined the digital record-keeping process for Purchase Orders, designing a new workflow that reduced document retrieval times by over 50%.
 
 ---
 
 ### 📜 Education & Certifications
 * 🎓 **Bachelor of Science in Accounting and Finance** — Hailey College of Commerce, University of the Punjab
-* 🏆 **IBM Data Science Professional Certificate**
 * 🏆 **IBM Data Analyst Professional Certificate**
-* 🏆 **Google Advanced Data Analytics Certificate**
+* 🏆 **Google Advanced Data Analytics Professional Certificate**
+* 🏆 **IBM Data Science Professional Certificate**
+* 🏆 **IBM Data Engineering Professional Certificate**
+* 🏆 **Google Digital Marketing & E-commerce Professional Certificate**
 
 ---
 
