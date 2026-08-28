@@ -1,56 +1,125 @@
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Waving%20Hand.png" alt="Waving Hand" width="45" />
-  <h1>Hi there, I'm Ahmad Bilal</h1>
+<!-- Dynamic Typing Header -->
+<h1 align="center">
+  <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&weight=600&size=28&pause=1000&color=2088FF&center=true&vCenter=true&width=800&lines=Hi+there,+I'm+Ahmad+Bilal+👋;Data+Analyst+|+Systems+Engineer;Predictive+Analytics+|+Business+Intelligence" alt="Typing SVG" />
+</h1>
 
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=4479A1&center=true&vCenter=true&width=600&lines=Data+Analyst+📊;Power+BI+Instructor+👨‍🏫;Open+Source+Contributor+💻" alt="Typing SVG" />
-  </a>
-</div>
+<p align="center">
+  <em>A detail-driven Data Strategist and Systems Engineer with a rigorous foundation in corporate finance. I specialize in translating complex operational datasets into actionable intelligence, building high-performance local data engineering utilities, and securing software workflows.</em>
+</p>
 
-<br/>
+<p align="center">
+  <a href="https://linkedin.com/in/AhmadBilalDES" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:Kierninja@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+</p>
 
-<div align="center">
-  <p><em>Transforming messy data into clear, actionable business intelligence. <br> From teaching the next generation of data analysts in Lahore to writing secure Python unit tests for open-source libraries.</em></p>
-</div>
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=AhmadBilalDSA&label=Profile%20Views&color=2088FF&style=flat-square" alt="Profile Views" />
+</p>
 
-<br/>
+---
 
-### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Rocket.png" alt="Rocket" width="30" /> What I'm Up To
-- 🔭 **Currently Working On:** Instructing Data Modeling and Power BI workflows at PNY Trainings.
-- 🌱 **Open Source:** Actively contributing to Python and SQL projects. Merged PRs for [**Adexa**](https://github.com/David-Axel/Adexa/pull/10) and [**py-simple-wrap**](https://github.com/sara-czasak/py-simple-wrap/pull/199).
-- 💼 **Experience:** Previously leveraged data to drive decisions as a Data Analyst at Timmy's Pizza.
-- 💬 **Ask Me About:** Python data pipelines, advanced SQL, DAX, and sports biomechanics!
+### ⚡ Quick Status
+- 🔭 **Currently Building:** High-performance, air-gapped data engineering utilities.
+- 🌱 **Currently Exploring:** Advanced DuckDB optimizations and Rust-based data tooling.
+- 🤝 **Open to:** Roles in Data Engineering, Analytics Engineering, or Open-Source collaborations.
 
-<br/>
+---
 
-### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Laptop.png" alt="Laptop" width="30" /> Tech Stack & Super Skills
+### 📊 GitHub Stats & Activity
 
-<div align="center">
+<p align="center">
+  <img src="https://github-readme-stats-fast.vercel.app/api?username=AhmadBilalDSA&show_icons=true&theme=tokyonight&hide_border=true&title_color=2088FF" alt="GitHub Stats" />
+  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=AhmadBilalDSA&layout=compact&theme=tokyonight&hide_border=true&title_color=2088FF" alt="Top Languages" />
+</p>
+---
+
+### 🧰 Tech Stack & Expertise
+
+<p align="center">
+  <!-- Languages & Version Control -->
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=python,postgres,mysql,git,github,cpp,vscode&theme=dark" alt="Skill Icons" />
+    <img src="https://skillicons.dev/icons?i=python,mysql,postgres,git,github,vscode,linux&theme=dark" alt="Skill Icons" />
   </a>
-  <br><br>
+</p>
+<p align="center">
+  <!-- Analytics, BI, & Frameworks -->
   <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Power BI" />
-  <img src="https://img.shields.io/badge/IBM_Data_Science-052FAD?style=for-the-badge&logo=ibm&logoColor=white" alt="IBM Data Science" />
-</div>
+  <img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white" alt="Tableau" />
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />
+  <img src="https://img.shields.io/badge/DuckDB-FFF000?style=for-the-badge&logo=duckdb&logoColor=black" alt="DuckDB" />
+  <img src="https://img.shields.io/badge/Polars-CD792C?style=for-the-badge&logo=polars&logoColor=white" alt="Polars" />
+  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit" />
+  <img src="https://img.shields.io/badge/Pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white" alt="Pytest" />
+</p>
 
-<br/>
+---
 
-### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Trophy.png" alt="Trophy" width="30" /> GitHub Stats
+### 🌟 Open Source Impact & Ecosystem Contributions
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=AhmadBilalDSA&show_icons=true&theme=transparent&hide_border=true&title_color=4479A1&icon_color=4479A1&text_color=888888" alt="Ahmad's GitHub Stats" />
-</div>
+I actively contribute to the core infrastructure of major Python data ecosystems and machine learning frameworks:
 
-<br/>
+| 🌐 Project | 🎯 Domain | 💡 Highlight & Contribution |
+| :--- | :--- | :--- |
+| **[`scikit-learn/scikit-learn`](https://github.com/scikit-learn/scikit-learn)** | Machine Learning | Contributed core algorithmic and numerical enhancements to Python's premier ML library **(PR #34800)**. |
+| **[`tobymao/sqlglot`](https://github.com/tobymao/sqlglot)** | SQL Transpiler | Enhanced multi-dialect SQL parsing logic, AST validation, and query transformations. |
+| **[`ibis-project/ibis`](https://github.com/ibis-project/ibis)** | Portable Dataframes | Resolved complex data manipulation bugs and optimized unified dataframe backend conversions. |
+| **[`scitex-ai/scitex-io`](https://github.com/scitex-ai/scitex-io)** | AI Infrastructure | Improved AI-driven analytical data pipelines and core developer tooling **(PR #166)**. |
 
-### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Postbox.png" alt="Postbox" width="30" /> Let's Connect!
+#### 🔬 Detailed Engineering Deep-Dives
 
-<div align="center">
-  <a href="https://linkedin.com/in/YOUR-LINKEDIN-URL" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="mailto:YOUR-EMAIL@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-</div>
+> **🛡️ Adexa | Unit Testing & Security ([PR #10](https://github.com/David-Axel/Adexa/pull/10))**  
+> **Context:** The AI engine lacked coverage to verify if its automated repair strategies were successfully mitigating SQL injection vulnerabilities.  
+> **What I Built:** Engineered over 300 lines of comprehensive unit tests in `test_repair_strategies.py`. Validated the engine's behavior against standard SQL injection patterns to ensure generated code patches meet strict security standards. *(Stack: Python, Pytest)*
+
+> **⚙️ py-simple-wrap | Core Implementation & Mocking ([PR #199](https://github.com/sara-czasak/py-simple-wrap/pull/199))**  
+> **Context:** The repository required tests for an `easy_sql` utility, but the base module itself was missing from the core directory.  
+> **What I Built:** Developed the core `easy_sql.py` execution module to handle `sqlite3` connections. Concurrently built the testing suite (`test_easy_sql.py`), utilizing `unittest.mock.patch` and `MagicMock` to isolate the database connection and validate query execution flows without requiring a live local database. *(Stack: Python, SQLite3, Pytest, Unittest.mock)*
+
+---
+
+### 🛠️ Personal Engineering & Local Data Utilities
+
+I design and build high-performance, air-gapped local-first tools for developers and data teams:
+
+* 🛡️ **`repo-doctor`** — Automated codebase diagnostic and health-check runner auditing secrets, licenses, and AI-readiness.
+* 🚀 **`duck-diff`** — High-speed data schema and table diffing utility leveraging embedded DuckDB for massive file reconciliation.
+* 🧹 **`sqlean-lint`** — Lightweight local-first SQL static analysis and rule validation engine targeting performance traps.
+* 📈 **`dbt-optimizer`** — Compilation analyzer and cost auditor toolkit for dbt core models and DAG dependencies.
+* ⚡ **`data-engine-benchmarks`** — Benchmarking framework evaluating speed, memory efficiency, and throughput across local vs. distributed engines (DuckDB, Polars, Pandas).
+* 🔍 **`github-issue-hunter`** — Automated search engine and dashboard designed to query, tag, and track high-priority GitHub issues across open-source ecosystems.
+
+---
+
+### 👨‍💻 Professional Experience
+
+* 🏫 **Power BI Developer & Instructor | PNY Trainings (NAVTTC)**
+  * Engineered and delivered a comprehensive technical curriculum in Power BI, SQL, and Python; established best practices for ETL pipelines and advanced data modeling.
+* 🍕 **Junior Data Scientist | Timmy's Pizza**
+  * Optimized local delivery routes, staffing schedules, and supply chain visibility using Pandas and interactive Power BI dashboards.
+* ⛽ **Procurement Intern | Sui Northern Gas Pipelines Limited (SNGPL)**
+  * Automated supplier performance KPI tracking and streamlined digital workflows, cutting document retrieval times by over 50%.
+
+---
+
+### 📜 Education & Certifications
+* 🎓 **Bachelor of Science in Accounting and Finance** — Hailey College of Commerce, University of the Punjab
+* 🏆 **IBM Data Science Professional Certificate**
+* 🏆 **IBM Data Analyst Professional Certificate**
+* 🏆 **Google Advanced Data Analytics Certificate**
+
+---
+
+### 🐍 Contribution Activity Matrix
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AhmadBilalDSA/AhmadBilalDSA/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AhmadBilalDSA/AhmadBilalDSA/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/AhmadBilalDSA/AhmadBilalDSA/output/github-contribution-grid-snake.svg">
+  </picture>
+</p>
+
+<!-- CI/CD Graphic (Markdown visual representation) -->
+<p align="center">
+  <code>[ Git Push / PR ] ──► [ GitHub Actions ] ──► [ Linting & PyTest Matrix ] ──► [ Deploy / Publish ]</code>
+</p>
