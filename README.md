@@ -18,10 +18,12 @@
 
 ---
 
-### ⚡ Quick Status
-- 🔭 **Currently Building:** High-performance, air-gapped data engineering utilities.
-- 🌱 **Currently Exploring:** Advanced DuckDB optimizations and Rust-based data tooling.
-- 🤝 **Open to:** Roles in Data Engineering, Analytics Engineering, or Open-Source collaborations.
+### 👨‍💻 About Me & Focus
+* 📊 **What I Do:** Data Analyst & Analytics Specialist specializing in Python, SQL, Power BI, and local-first data engineering tools.
+* ⚡ **Currently Building:** Automated data pipelines, issue-tracking scrapers, and SQL performance benchmarks (`data-engine-benchmarks`, `duck-diff`).
+* 🐙 **Open Source:** Active contributor to data parsing and transformation ecosystems ([`sqlglot`](https://github.com/tobymao/sqlglot), [`ibis-project`](https://github.com/ibis-project/ibis), [`scikit-learn`](https://github.com/scikit-learn/scikit-learn)).
+* 🌱 **Currently Exploring:** Advanced DuckDB optimizations and high-performance local data tooling.
+* 🤝 **Open to:** Roles in Data Analytics, Analytics Engineering, or Open-Source collaborations.
 
 ---
 
@@ -31,12 +33,13 @@
   <img src="https://github-readme-stats-fast.vercel.app/api?username=AhmadBilalDSA&show_icons=true&theme=tokyonight&hide_border=true&title_color=2088FF" alt="GitHub Stats" />
   <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=AhmadBilalDSA&layout=compact&theme=tokyonight&hide_border=true&title_color=2088FF" alt="Top Languages" />
 </p>
+
 ---
 
 ### 🧰 Tech Stack & Expertise
 
 <p align="center">
-  <!-- Languages & Version Control -->
+  <!-- Languages & Tools -->
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=python,mysql,postgres,git,github,vscode,linux&theme=dark" alt="Skill Icons" />
   </a>
@@ -119,7 +122,6 @@ I design and build high-performance, air-gapped local-first tools for developers
   </picture>
 </p>
 
-<!-- CI/CD Graphic (Markdown visual representation) -->
 <p align="center">
   <code>[ Git Push / PR ] ──► [ GitHub Actions ] ──► [ Linting & PyTest Matrix ] ──► [ Deploy / Publish ]</code>
 </p>
