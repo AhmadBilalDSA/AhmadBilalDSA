@@ -113,14 +113,30 @@ I actively contribute to the core infrastructure of Python data frameworks, AI/R
 > **What I Built:** Refactored docstring headers to adhere to formal Sphinx/PEP `Parameters:` conventions across `parser_tools.py` and `cal/component.py` (resolving issue `#1072`). Enforced code cleanups across automated Ruff formatting and linting pipelines with zero regressions. *(Stack: Python, Ruff, Sphinx Docs, RFC 5545)*  
 > **Direct Proof:** [PR #1749](https://github.com/collective/icalendar/pull/1749)
 
-#### 💡 High-Impact Engineering Highlights & CV Achievements
+### 💡 High-Impact Engineering Highlights & CV Achievements
 
-* **Vector Ingestion & Storage Architecture (`langchain`, `semantica`):** Enforced dimension boundary validation on `VectorStore.add_texts` across LangChain pipelines (PR #40079); resolved serialization state desynchronization in FAISS vector stores by establishing explicit `vector_id` persistence across index read/write operations (PR #1313, #1314 closing Issue #1272).
-* **AST Parser Engine & Dialect Parity (`sqlfluff`):** Diagnosed and reconciled DuckDB SQL grammar mismatches by reclassifying `SUMMARIZE` into dialect-reserved keywords, refactoring lexer test fixtures, regenerating syntax tree YAML representations, and enforcing compliance across strict 9-phase automated Git hook suites (`mypy`, `ruff`, `yamllint`, `doc8`, `codespell`).
-* **Cross-Engine Type Translation & Schema Inference (`ibis`, `sympy`):** Engineered robust type conversion logic to resolve unhandled `KeyError: Object` exceptions when reading Polars tables with mixed or uncoerced Python objects (`dt.Unknown` mapping); strengthened static typing throughout SymPy mathematical decorators (PR #50354).
-* **Application Security & SQL Injection Mitigation (`py-simple-wrap`, `Adexa`):** Hardened database access layers against SQL injection vectors (including stacked queries and UNION-based exfiltration attacks) by introducing internal identifier whitelisting (`_check_if_valid`) and mandatory parameterized tuple execution; designed and verified a 52-test test harness in pytest to achieve comprehensive CRUD validation coverage.
-* **Protocol & Pipeline Hardening (`mcp-migrate`, `hflow`, `scitex-io`):** Hardened RD10 wire boundaries for MCP migration tooling (PR #254); consolidated single-SELECT SQL validation rules into shared curation libraries (PR #281); engineered binary Feather serialization validation tests (PR #166).
-* **Advanced Version Control & Upstream Reconciliation:** Executed complex Git maintenance operations across multi-maintainer open-source codebases, including interactive rebases, upstream synchronization, three-way merge conflict resolutions, and safe history integration (`--force-with-lease`).
+> #### 🧠 Vector Ingestion & Storage Architecture
+> * **LangChain ([PR #40079](https://github.com/langchain-ai/langchain/pull/40079))** — Enforced strict dimensional boundary assertions in `VectorStore.add_texts`, eliminating silent metadata drift and corrupt indexing across text chunk ingestion pipelines (`closes #36203`).
+> * **Semantica ([PR #1314](https://github.com/semantica-agi/semantica/pull/1314) • [PR #1313](https://github.com/semantica-agi/semantica/pull/1313))** — Resolved serialization state desynchronization in FAISS vector stores by establishing atomic `vector_id` and document metadata persistence routines across index read/write cycles (`closes #1272`).
+
+> #### 🔍 AST Parser Engines & Dialect Parity
+> * **SQLFluff ([PR #8396](https://github.com/sqlfluff/sqlfluff/pull/8396))** — Diagnosed and reconciled DuckDB SQL grammar mismatches by reclassifying `SUMMARIZE` into dialect-reserved keywords, regenerating AST syntax tree YAML definitions, and passing an automated 9-hook static verification pipeline (`mypy`, `ruff`, `yamllint`, `doc8`, `codespell`).
+
+> #### 📊 Cross-Engine Type Translation & Schema Inference
+> * **Ibis ([PR #12086](https://github.com/ibis-project/ibis/pull/12086))** — Eliminated unhandled `KeyError: Object` exceptions by engineering schema reflection logic that maps Polars `pl.Object` structures cleanly to `dt.Unknown(nullable=True)` with standalone memtable integration tests.
+> * **SymPy ([PR #50354](https://github.com/sympy/sympy/pull/50354))** — Modernized type hints across `sympy.utilities.decorator` to reinforce strict static type checking and type inference during symbolic evaluations (`closes #28806`).
+
+> #### 🛡️ Application Security & SQL Injection Mitigation
+> * **py-simple-wrap ([PR #199](https://github.com/sara-czasak/py-simple-wrap/pull/199))** — Hardened database utilities against stacked queries and `UNION`-based injection attacks via regex identifier whitelisting (`_check_if_valid`) and mandatory parameterized tuple execution; authored a 52-test `pytest` harness.
+> * **Adexa ([PR #10](https://github.com/David-Axel/Adexa/pull/10))** — Designed 300+ lines of targeted `pytest` suites validating automated AI remediation engines against common web vulnerability vectors.
+
+> #### ⚡ Protocol Standardization & Pipeline Hardening
+> * **MCP Migrate ([PR #254](https://github.com/dheerajha/mcp-migrate/pull/254))** — Hardened RD10 wire boundaries for Model Context Protocol migrations and introduced the `ServerDiscoverFixer` test harness.
+> * **HFlow ([PR #281](https://github.com/Hebbian-Robotics/hflow/pull/281))** — Refactored data curation pipelines to isolate single-`SELECT` validation rules directly within core libraries (`closes #280`).
+> * **Scitex IO ([PR #166](https://github.com/scitex-ai/scitex-io/pull/166))** — Built round-trip binary Feather serialization validation checks and bad-extension error handlers.
+
+> #### 🔀 Advanced Version Control & Upstream Reconciliation
+> * **Git Workflows** — Maintained high branch hygiene across high-velocity multi-contributor upstream repositories using interactive rebasing, multi-file 3-way merge conflict resolution, hook automation, and safe force pushes via `--force-with-lease`.
 
 ---
 
@@ -136,16 +152,18 @@ I actively contribute to the core infrastructure of Python data frameworks, AI/R
 
 ---
 
-### 🛠️ Personal Engineering & Local Data Utilities
+### 🛠️ Local-First Engineering & Systems Tooling
 
-I design and build high-performance, air-gapped local-first tools for developers and data teams:
+> High-performance, air-gapped utilities built for low-latency developer workflows, local data reconciliation, and automated codebase governance:
 
-* 🛡️ **`repo-doctor`** — Automated codebase diagnostic and health-check runner auditing secrets, licenses, and AI-readiness.
-* 🚀 **`duck-diff`** — High-speed data schema and table diffing utility leveraging embedded DuckDB for massive file reconciliation.
-* 🧹 **`sqlean-lint`** — Lightweight local-first SQL static analysis and rule validation engine targeting performance traps.
-* 📈 **`dbt-optimizer`** — Compilation analyzer and cost auditor toolkit for dbt core models and DAG dependencies.
-* ⚡ **`data-engine-benchmarks`** — Benchmarking framework evaluating speed, memory efficiency, and throughput across local vs. distributed engines (DuckDB, Polars, Pandas).
-* 🔍 **`github-issue-hunter`** — Automated search engine and dashboard designed to query, tag, and track high-priority GitHub issues across open-source ecosystems.
+| ⚡ Tool | 🎯 Focus & Architecture | 🛠️ Tech Stack | 🔗 Status |
+| :--- | :--- | :--- | :--- |
+| **`duck-diff`** | Embedded table & schema reconciliation engine for fast multi-million-row dataset diffing without cloud transit. | `DuckDB` `Python` `Arrow` | [![Repo](https://img.shields.io/badge/GitHub-duck--diff-2088FF?style=flat-square&logo=github)](https://github.com/AhmadBilalDSA/duck-diff) |
+| **`data-engine-benchmarks`** | Automated benchmarking matrix measuring throughput, peak memory usage, and vector speed across data engines. | `Polars` `DuckDB` `Pandas` | [![Repo](https://img.shields.io/badge/GitHub-benchmarks-2088FF?style=flat-square&logo=github)](https://github.com/AhmadBilalDSA/data-engine-benchmarks) |
+| **`repo-doctor`** | Local-first codebase scanner auditing leaked secrets, software licenses, dependency debt, and AI context hygiene. | `Python` `AST` `Git Hooks` | [![Repo](https://img.shields.io/badge/GitHub-repo--doctor-2088FF?style=flat-square&logo=github)](https://github.com/AhmadBilalDSA/repo-doctor) |
+| **`sqlean-lint`** | Lightweight static analysis engine detecting SQL anti-patterns, non-SARGable predicates, and join cartesian risks. | `Python` `SQLFluff` `CLI` | [![Repo](https://img.shields.io/badge/GitHub-sqlean--lint-2088FF?style=flat-square&logo=github)](https://github.com/AhmadBilalDSA/sqlean-lint) |
+| **`dbt-optimizer`** | Dependency DAG and compilation cost analyzer highlighting model bloat and high-latency transform paths. | `dbt-core` `Python` `NetworkX` | [![Repo](https://img.shields.io/badge/GitHub-dbt--optimizer-2088FF?style=flat-square&logo=github)](https://github.com/AhmadBilalDSA/dbt-optimizer) |
+| **`github-issue-hunter`** | High-speed aggregator and telemetry board indexing and filtering open issues across high-volume open-source repos. | `Python` `REST APIs` `SQLite` | [![Repo](https://img.shields.io/badge/GitHub-issue--hunter-2088FF?style=flat-square&logo=github)](https://github.com/AhmadBilalDSA/github-issue-hunter) |
 
 ---
 
@@ -155,7 +173,7 @@ I design and build high-performance, air-gapped local-first tools for developers
   * Engineered and delivered comprehensive technical curriculum in Power BI, SQL, and Python; established best practices for ETL pipelines and advanced data modeling.
 * 🍕 **Junior Data Scientist | Timmy's Pizza** *(Nov 2023 – Dec 2025)*
   * Optimized local delivery routes, staffing schedules, and supply chain visibility using Pandas and interactive Power BI dashboards.
-* 💻 **Data Analyst Intern | PNY Trainings** *(Jun 2025 – Present)*
+* 💻 **Data Analyst Intern | PNY Trainings** *(June 2025 – Present)*
   * Spearheaded a data-driven marketing analysis for a key e-commerce client, leveraging Power BI and Advanced Excel to project a 15% increase in customer engagement.
   * Automated a reporting pipeline using Python (Pandas) and SQL, reducing manual data processing for weekly sales reports by 10 hours per month and improving efficiency by 30%.
 * ⛽ **Procurement Intern | Sui Northern Gas Pipelines Limited (SNGPL)**
