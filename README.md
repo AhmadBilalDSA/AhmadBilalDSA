@@ -21,7 +21,7 @@
 ### 👨‍💻 About Me & Focus
 * 📊 **What I Do:** Data Analyst & Analytics Specialist specializing in Python, SQL, Power BI, and local-first data engineering tools.
 * ⚡ **Currently Building:** Automated data pipelines, issue-tracking scrapers, and SQL performance benchmarks (`data-engine-benchmarks`, `duck-diff`).
-* 🐙 **Open Source:** Active contributor to data parsing and transformation ecosystems ([`sqlglot`](https://github.com/tobymao/sqlglot), [`ibis-project`](https://github.com/ibis-project/ibis), [`scikit-learn`](https://github.com/scikit-learn/scikit-learn)).
+* 🐙 **Open Source:** Active contributor across major data engines, AI/RAG architectures, and mathematical libraries ([`langchain`](https://github.com/langchain-ai/langchain), [`sympy`](https://github.com/sympy/sympy), [`sqlfluff`](https://github.com/sqlfluff/sqlfluff), [`ibis-project`](https://github.com/ibis-project/ibis), [`scikit-learn`](https://github.com/scikit-learn/scikit-learn)).
 * 🌱 **Currently Exploring:** Advanced DuckDB optimizations and high-performance local data tooling.
 * 🤝 **Open to:** Roles in Data Analytics, Analytics Engineering, or Open-Source collaborations.
 
@@ -52,32 +52,75 @@
   <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />
   <img src="https://img.shields.io/badge/DuckDB-FFF000?style=for-the-badge&logo=duckdb&logoColor=black" alt="DuckDB" />
   <img src="https://img.shields.io/badge/Polars-CD792C?style=for-the-badge&logo=polars&logoColor=white" alt="Polars" />
+  <img src="https://img.shields.io/badge/Ibis-FF5722?style=for-the-badge&logo=python&logoColor=white" alt="Ibis" />
   <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit" />
   <img src="https://img.shields.io/badge/Pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white" alt="Pytest" />
+  <img src="https://img.shields.io/badge/Ruff-D7FF64?style=for-the-badge&logo=ruff&logoColor=black" alt="Ruff" />
 </p>
 
 ---
 
 ### 🌟 Open Source Impact & Ecosystem Contributions
 
-I actively contribute to the core infrastructure of major Python data ecosystems and machine learning frameworks:
+I actively contribute to the core infrastructure of Python data frameworks, AI/RAG architectures, symbolic mathematics, and compiler engines:
 
-| 🌐 Project | 🎯 Domain | 💡 Highlight & Contribution |
+| 🌐 Project | 🎯 Domain | 💡 Highlight & Verified Contribution Link |
 | :--- | :--- | :--- |
-| **[`scikit-learn/scikit-learn`](https://github.com/scikit-learn/scikit-learn)** | Machine Learning | Contributed core algorithmic and numerical enhancements to Python's premier ML library **(PR #34800)**. |
-| **[`tobymao/sqlglot`](https://github.com/tobymao/sqlglot)** | SQL Transpiler | Enhanced multi-dialect SQL parsing logic, AST validation, and query transformations. |
-| **[`ibis-project/ibis`](https://github.com/ibis-project/ibis)** | Portable Dataframes | Resolved complex data manipulation bugs and optimized unified dataframe backend conversions. |
-| **[`scitex-ai/scitex-io`](https://github.com/scitex-ai/scitex-io)** | AI Infrastructure | Improved AI-driven analytical data pipelines and core developer tooling **(PR #166)**. |
+| **[`langchain-ai/langchain`](https://github.com/langchain-ai/langchain)** | AI & LLM Frameworks | Validated vector store indexing parity ensuring `VectorStore.add_texts` `ids` length strictly matches input text chunks (closes `#36203`) — **[PR #40079](https://github.com/langchain-ai/langchain/pull/40079)**. |
+| **[`sympy/sympy`](https://github.com/sympy/sympy)** | Symbolic Mathematics | Enhanced core typing annotations across `sympy.utilities.decorator` to strengthen static type checking (closes `#28806`) — **[PR #50354](https://github.com/sympy/sympy/pull/50354)**. |
+| **[`semantica-agi/semantica`](https://github.com/semantica-agi/semantica)** | Vector Search & RAG | Persisted `vector_ids` and metadata across FAISS index save/load cycles (closes `#1272`), resolved fenced code indentation, and updated contributor architecture — **[PR #1314](https://github.com/semantica-agi/semantica/pull/1314)** • **[PR #1313](https://github.com/semantica-agi/semantica/pull/1313)** • **[PR #1315](https://github.com/semantica-agi/semantica/pull/1315)** • **[PR #1386](https://github.com/semantica-agi/semantica/pull/1386)**. |
+| **[`sqlfluff/sqlfluff`](https://github.com/sqlfluff/sqlfluff)** | SQL Parser & Linter | Reconciled DuckDB grammar AST parity by reclassifying `SUMMARIZE` under reserved keywords, updating SQL test fixtures, and regenerating parse trees verified across 9 pre-commit CI hooks — **[PR #8396](https://github.com/sqlfluff/sqlfluff/pull/8396)**. |
+| **[`ibis-project/ibis`](https://github.com/ibis-project/ibis)** | Portable Analytics | Implemented seamless type translation for `pl.Object` to `dt.Unknown` in the Polars backend, adding standalone client integration tests to prevent schema reflection crashes — **[PR #12086](https://github.com/ibis-project/ibis/pull/12086)**. |
+| **[`finos/opengeneris-scaler`](https://github.com/finos/opengeneris-scaler)** | Financial Infrastructure | Modernized typing architecture by replacing deprecated `typing` aliases with built-in generics across scaler pipelines (closes `#202`) — **[PR #93](https://github.com/finos/opengeneris-scaler/pull/93)**. |
+| **[`dheerajha/mcp-migrate`](https://github.com/dheerajha/mcp-migrate)** | Model Context Protocol | Hardened RD10 wire boundaries and authored comprehensive `ServerDiscoverFixer` test suites — **[PR #254](https://github.com/dheerajha/mcp-migrate/pull/254)**. |
+| **[`goldener-data/goldener`](https://github.com/goldener-data/goldener)** | Data Quality & Vectorizing | Patched vectorizer test assertions and corrected test method naming conventions in `TestGoldVectorizer` — **[PR #325](https://github.com/goldener-data/goldener/pull/325)**. |
+| **[`Hebbian-Robotics/hflow`](https://github.com/Hebbian-Robotics/hflow)** | Robotics & Curation | Refactored data curation pipelines to consolidate single-SELECT query validation rules directly into core libraries (closes `#280`) — **[PR #281](https://github.com/Hebbian-Robotics/hflow/pull/281)**. |
+| **[`scitex-ai/scitex-io`](https://github.com/scitex-ai/scitex-io)** | AI Infrastructure | Added round-trip serialization and invalid-extension test coverage for `load_feather` I/O utilities — **[PR #166](https://github.com/scitex-ai/scitex-io/pull/166)**. |
+| **[`sara-czasak/py-simple-wrap`](https://github.com/sara-czasak/py-simple-wrap)** | Application Security | Fortified database access helpers against SQL injection attacks with identifier whitelisting (`_check_if_valid`) and parameterized bindings, backed by a 52-test `pytest` suite — **[PR #199](https://github.com/sara-czasak/py-simple-wrap/pull/199)**. |
+| **[`collective/icalendar`](https://github.com/collective/icalendar)** | Standards & Tooling | Standardized public developer APIs and docstrings across parsing and serialization engines to comply with `Parameters:` style guides and strict Ruff linting (resolving `#1072`) — **[PR #1749](https://github.com/collective/icalendar/pull/1749)**. |
+| **[`David-Axel/Adexa`](https://github.com/David-Axel/Adexa)** | Security & Automated Repair | Authored 300+ lines of unit test suites validating AI automated repair strategies against SQL injection attack vectors — **[PR #10](https://github.com/David-Axel/Adexa/pull/10)**. |
+| **[`scikit-learn/scikit-learn`](https://github.com/scikit-learn/scikit-learn)** | Machine Learning | Clarified in-place array modifications for `copy=False` operations in `mutual_info_regression` — **[PR #34800](https://github.com/scikit-learn/scikit-learn/pull/34800)**. |
 
 #### 🔬 Detailed Engineering Deep-Dives
 
-> **🛡️ Adexa | Unit Testing & Security ([PR #10](https://github.com/David-Axel/Adexa/pull/10))**  
-> **Context:** The AI engine lacked coverage to verify if its automated repair strategies were successfully mitigating SQL injection vulnerabilities.  
-> **What I Built:** Engineered over 300 lines of comprehensive unit tests in `test_repair_strategies.py`. Validated the engine's behavior against standard SQL injection patterns to ensure generated code patches meet strict security standards. *(Stack: Python, Pytest)*
+> **🤖 LangChain | Vector Store Integrity & Schema Ingestion — [View PR #40079](https://github.com/langchain-ai/langchain/pull/40079)**  
+> **Context:** Ingestion pipelines allowed mismatched lengths between input text documents and provided `ids`, leading to silent indexing corruption in downstream vector stores (Issue #36203).  
+> **What I Built:** Implemented strict assertion and validation checks in `VectorStore.add_texts` ensuring equal dimensions between inputs and ID sequences prior to embedding dispatch. Added unit tests verifying defensive error raises on dimension mismatches. *(Stack: Python, LangChain, Vector Embeddings, Pytest)*  
+> **Direct Proof:** [PR #40079](https://github.com/langchain-ai/langchain/pull/40079)
 
-> **⚙️ py-simple-wrap | Core Implementation & Mocking ([PR #199](https://github.com/sara-czasak/py-simple-wrap/pull/199))**  
-> **Context:** The repository required tests for an `easy_sql` utility, but the base module itself was missing from the core directory.  
-> **What I Built:** Developed the core `easy_sql.py` execution module to handle `sqlite3` connections. Concurrently built the testing suite (`test_easy_sql.py`), utilizing `unittest.mock.patch` and `MagicMock` to isolate the database connection and validate query execution flows without requiring a live local database. *(Stack: Python, SQLite3, Pytest, Unittest.mock)*
+> **🧠 Semantica | FAISS Persistence & Markdown Parsing — [View PR #1314](https://github.com/semantica-agi/semantica/pull/1314) • [PR #1315](https://github.com/semantica-agi/semantica/pull/1315)**  
+> **Context:** Serializing FAISS indexes dropped explicit `vector_ids` and custom metadata mappings during save/load operations (Issue #1272). Concurrently, the markdown normalizer was stripping intentional whitespace within fenced code blocks.  
+> **What I Built:** Engineered persistent metadata storage alongside FAISS indexes to guarantee 1:1 ID parity across I/O cycles. Patched document normalizers to preserve indentation within code fences. Authored contributor guidelines to streamline external contributions. *(Stack: Python, FAISS, Vector Storage, AST Normalization)*  
+> **Direct Proof:** [PR #1314](https://github.com/semantica-agi/semantica/pull/1314) • [PR #1313](https://github.com/semantica-agi/semantica/pull/1313) • [PR #1315](https://github.com/semantica-agi/semantica/pull/1315) • [PR #1386](https://github.com/semantica-agi/semantica/pull/1386)
+
+> **🔍 SQLFluff | AST Parser Engine & Dialect Parity — [View PR #8396](https://github.com/sqlfluff/sqlfluff/pull/8396)**  
+> **Context:** DuckDB dialect queries using `SUMMARIZE` encountered grammar classification mismatches against the unreserved keyword tree.  
+> **What I Built:** Corrected keyword classifications in `dialect_duckdb.py` by relocating `SUMMARIZE` to `reserved_keywords`. Updated dialect fixtures, regenerated the fixture parse tree YAML, and ensured full compliance across all 9 pre-commit static analysis checks (`mypy`, `ruff`, `yamllint`, `doc8`, `codespell`). *(Stack: Python, SQLFluff AST, DuckDB, Pre-commit)*  
+> **Direct Proof:** [PR #8396](https://github.com/sqlfluff/sqlfluff/pull/8396) • [Commit `0397f6b`](https://github.com/sqlfluff/sqlfluff/pull/8396/commits/0397f6b58047a42097dfbd6a5957baa3e15fd526)
+
+> **📊 Ibis | Cross-Engine Type Translation & Schema Inference — [View PR #12086](https://github.com/ibis-project/ibis/pull/12086)**  
+> **Context:** Ingesting Polars tables with mixed or custom object types triggered unhandled `KeyError: Object` exceptions during schema reflection.  
+> **What I Built:** Extended `PolarType.to_ibis` to map both class and instance forms of `pl.Object` to `dt.Unknown(nullable=True)`. Designed a standalone client integration test in `test_client.py` using direct `ibis.polars.connect()` memtables to safeguard schema inference without external dataset dependencies. *(Stack: Python, Polars, Ibis, Pytest)*  
+> **Direct Proof:** [PR #12086](https://github.com/ibis-project/ibis/pull/12086)
+
+> **🛡️ py-simple-wrap | SQL Injection Mitigation & CRUD Testing — [View PR #199](https://github.com/sara-czasak/py-simple-wrap/pull/199)**  
+> **Context:** Database helper methods lacked validation guards against malicious input payloads in table and column identifiers.  
+> **What I Built:** Hardened database helpers with regex whitelisting (`_check_if_valid`) and mandatory parameterized tuple execution to block stacked queries and UNION-based injection attacks. Synced updates with upstream additions (`run_update`, `ExperimentalWarning`), restored module re-exports in `__init__.py`, and authored a comprehensive 52-test `pytest` harness. *(Stack: Python, SQLite3, Pytest, Application Security)*  
+> **Direct Proof:** [PR #199](https://github.com/sara-czasak/py-simple-wrap/pull/199)
+
+> **📚 icalendar | API Documentation Architecture & Ruff Linting — [View PR #1749](https://github.com/collective/icalendar/pull/1749)**  
+> **Context:** Public APIs across core calendar parsing and serialization engines contained inconsistent docstring formatting that violated community style specifications.  
+> **What I Built:** Refactored docstring headers to adhere to formal Sphinx/PEP `Parameters:` conventions across `parser_tools.py` and `cal/component.py` (resolving issue `#1072`). Enforced code cleanups across automated Ruff formatting and linting pipelines with zero regressions. *(Stack: Python, Ruff, Sphinx Docs, RFC 5545)*  
+> **Direct Proof:** [PR #1749](https://github.com/collective/icalendar/pull/1749)
+
+#### 💡 High-Impact Engineering Highlights & CV Achievements
+
+* **Vector Ingestion & Storage Architecture (`langchain`, `semantica`):** Enforced dimension boundary validation on `VectorStore.add_texts` across LangChain pipelines (PR #40079); resolved serialization state desynchronization in FAISS vector stores by establishing explicit `vector_id` persistence across index read/write operations (PR #1313, #1314 closing Issue #1272).
+* **AST Parser Engine & Dialect Parity (`sqlfluff`):** Diagnosed and reconciled DuckDB SQL grammar mismatches by reclassifying `SUMMARIZE` into dialect-reserved keywords, refactoring lexer test fixtures, regenerating syntax tree YAML representations, and enforcing compliance across strict 9-phase automated Git hook suites (`mypy`, `ruff`, `yamllint`, `doc8`, `codespell`).
+* **Cross-Engine Type Translation & Schema Inference (`ibis`, `sympy`):** Engineered robust type conversion logic to resolve unhandled `KeyError: Object` exceptions when reading Polars tables with mixed or uncoerced Python objects (`dt.Unknown` mapping); strengthened static typing throughout SymPy mathematical decorators (PR #50354).
+* **Application Security & SQL Injection Mitigation (`py-simple-wrap`, `Adexa`):** Hardened database access layers against SQL injection vectors (including stacked queries and UNION-based exfiltration attacks) by introducing internal identifier whitelisting (`_check_if_valid`) and mandatory parameterized tuple execution; designed and verified a 52-test test harness in pytest to achieve comprehensive CRUD validation coverage.
+* **Protocol & Pipeline Hardening (`mcp-migrate`, `hflow`, `scitex-io`):** Hardened RD10 wire boundaries for MCP migration tooling (PR #254); consolidated single-SELECT SQL validation rules into shared curation libraries (PR #281); engineered binary Feather serialization validation tests (PR #166).
+* **Advanced Version Control & Upstream Reconciliation:** Executed complex Git maintenance operations across multi-maintainer open-source codebases, including interactive rebases, upstream synchronization, three-way merge conflict resolutions, and safe history integration (`--force-with-lease`).
 
 ---
 
