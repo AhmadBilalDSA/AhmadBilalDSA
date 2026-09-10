@@ -202,5 +202,5 @@ I actively contribute to the core infrastructure of Python data frameworks, AI/R
 </p>
 
 <p align="center">
-  <code>[ Git Push / PR ] ──► [ GitHub Actions ] ──► [ Linting & PyTest Matrix ] ──► [ Deploy / Publish ]</code>
+  <code>[ Git Push / PR ] ──► [ GitHub Actions ] ──► [ Linting & PyTest Matrix ] ──► [ Deploy / Publish. ]</code>
 </p>
