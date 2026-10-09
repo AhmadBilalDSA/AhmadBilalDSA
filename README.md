@@ -1,206 +1,77 @@
-<!-- Dynamic Typing Header -->
-<h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&weight=600&size=28&pause=1000&color=2088FF&center=true&vCenter=true&width=800&lines=Hi+there,+I'm+Ahmad+Bilal+👋;Data+Analyst+|+Systems+Engineer;Predictive+Analytics+|+Business+Intelligence" alt="Typing SVG" />
-</h1>
+# Ahmad Bilal
 
-<p align="center">
-  <em>A detail-driven Data Strategist and Systems Engineer with a rigorous foundation in corporate finance. I specialize in translating complex operational datasets into actionable intelligence, building high-performance local data engineering utilities, and securing software workflows.</em>
-</p>
+Data analyst & analytics engineer. I build local-first data tools (sqlean-lint, duck-diff) and run PayoutDelta, an open directory of freelance payout fees. Upstream contributor to LangChain, SQLFluff, and Ibis.
 
-<p align="center">
-  <a href="https://linkedin.com/in/AhmadBilalDES" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="mailto:Kierninja@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-</p>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=AhmadBilalDSA&label=Profile%20Views&color=2088FF&style=flat-square" alt="Profile Views" />
-</p>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ahmadbilaldes/) [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kierninjaw@gmail.com)
 
 ---
 
-### 👨‍💻 About Me & Focus
-* 📊 **What I Do:** Data Analyst & Analytics Specialist specializing in Python, SQL, Power BI, and local-first data engineering tools.
-* ⚡ **Currently Building:** Automated data pipelines, issue-tracking scrapers, and SQL performance benchmarks (`data-engine-benchmarks`, `duck-diff`).
-* 🐙 **Open Source:** Active contributor across major data engines, AI/RAG architectures, and mathematical libraries ([`langchain`](https://github.com/langchain-ai/langchain), [`sympy`](https://github.com/sympy/sympy), [`sqlfluff`](https://github.com/sqlfluff/sqlfluff), [`ibis-project`](https://github.com/ibis-project/ibis), [`scikit-learn`](https://github.com/scikit-learn/scikit-learn)).
-* 🌱 **Currently Exploring:** Advanced DuckDB optimizations and high-performance local data tooling.
-* 🤝 **Open to:** Roles in Data Analytics, Analytics Engineering, or Open-Source collaborations.
+## What I'm working on
+
+- **[PayoutDelta](https://github.com/AhmadBilalDSA/payout-delta):** open directory of 131 payout corridors (Payoneer, Wise, PayPal, bank SWIFT, local rails) with a live fee estimator. [Live site](https://ahmadbilaldsa.github.io/payout-delta)
+- **[sqlean-lint](https://github.com/AhmadBilalDSA/sqlean-lint):** local-first SQL linter: AST-based detection of non-SARGable predicates, Cartesian joins, and schema hazards. Four dialects, under 110 MB peak.
+- **[duck-diff](https://github.com/AhmadBilalDSA/duck-diff):** constant-memory table and schema diff engine on DuckDB: keyed/keyless reconciliation across Parquet, CSV, JSON, and SQLite.
 
 ---
 
-### 📊 GitHub Stats & Activity
+## Open-source contributions
 
-<p align="center">
-  <img src="https://github-readme-stats-fast.vercel.app/api?username=AhmadBilalDSA&show_icons=true&theme=tokyonight&hide_border=true&title_color=2088FF" alt="GitHub Stats" />
-  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=AhmadBilalDSA&layout=compact&theme=tokyonight&hide_border=true&title_color=2088FF" alt="Top Languages" />
-</p>
+Every PR below is real and merged upstream (or closed as completed). Links go to the actual pull requests.
 
----
-
-### 🧰 Tech Stack & Expertise
-
-<p align="center">
-  <!-- Languages & Tools -->
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=python,mysql,postgres,git,github,vscode,linux&theme=dark" alt="Skill Icons" />
-  </a>
-</p>
-<p align="center">
-  <!-- Analytics, BI, & Frameworks -->
-  <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Power BI" />
-  <img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white" alt="Tableau" />
-  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
-  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />
-  <img src="https://img.shields.io/badge/DuckDB-FFF000?style=for-the-badge&logo=duckdb&logoColor=black" alt="DuckDB" />
-  <img src="https://img.shields.io/badge/Polars-CD792C?style=for-the-badge&logo=polars&logoColor=white" alt="Polars" />
-  <img src="https://img.shields.io/badge/Ibis-FF5722?style=for-the-badge&logo=python&logoColor=white" alt="Ibis" />
-  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit" />
-  <img src="https://img.shields.io/badge/Pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white" alt="Pytest" />
-  <img src="https://img.shields.io/badge/Ruff-D7FF64?style=for-the-badge&logo=ruff&logoColor=black" alt="Ruff" />
-</p>
+| Project | PR | What changed |
+|---|---|
+| `langchain-ai/langchain` | [#40079](https://github.com/langchain-ai/langchain/pull/40079) | Validate `ids` length matches input chunks in `VectorStore.add_texts` (closes #36203) |
+| `sqlfluff/sqlfluff` | [#8396](https://github.com/sqlfluff/sqlfluff/pull/8396) | Reclassify `SUMMARIZE` as a reserved keyword in the DuckDB dialect; regenerate parse fixtures |
+| `ibis-project/ibis` | [#12086](https://github.com/ibis-project/ibis/pull/12086) | Map Polars `pl.Object` to `dt.Unknown` so schema reflection stops crashing on mixed types |
+| `semantica-agi/semantica` | [#1313](https://github.com/semantica-agi/semantica/pull/1313) · [#1314](https://github.com/semantica-agi/semantica/pull/1314) · [#1315](https://github.com/semantica-agi/semantica/pull/1315) | Persist `vector_ids` and metadata across FAISS index save/load; fix fenced-code indentation |
+| `sara-czasak/py-simple-wrap` | [#199](https://github.com/sara-czasak/py-simple-wrap/pull/199) | SQL-injection hardening (identifier whitelist + parameterized queries) with a 52-test suite |
+| `Hebbian-Robotics/hflow` | [#281](https://github.com/Hebbian-Robotics/hflow/pull/281) | Consolidate the single-SELECT validation rule into the core library |
+| `goldener-data/goldener` | [#325](https://github.com/goldener-data/goldener/pull/325) | Fix vectorizer test assertions and naming |
+| `scitex-ai/scitex-io` | [#166](https://github.com/scitex-ai/scitex-io/pull/166) | Feather round-trip and invalid-extension test coverage |
+| `David-Axel/Adexa` | [#10](https://github.com/David-Axel/Adexa/pull/10) | Unit tests for SQL-injection repair strategies |
+| `scikit-learn/scikit-learn` | [#34800](https://github.com/scikit-learn/scikit-learn/pull/34800) | Docs: clarify in-place behavior of `copy=False` in `mutual_info_regression` |
 
 ---
 
-### 🌟 Open Source Impact & Ecosystem Contributions
+## Stats
 
-I actively contribute to the core infrastructure of Python data frameworks, AI/RAG architectures, symbolic mathematics, and compiler engines:
-
-| 🌐 Project | 🎯 Domain | 💡 Highlight & Verified Contribution Link |
-| :--- | :--- | :--- |
-| **[`langchain-ai/langchain`](https://github.com/langchain-ai/langchain)** | AI & LLM Frameworks | Validated vector store indexing parity ensuring `VectorStore.add_texts` `ids` length strictly matches input text chunks (closes `#36203`) — **[PR #40079](https://github.com/langchain-ai/langchain/pull/40079)**. |
-| **[`sympy/sympy`](https://github.com/sympy/sympy)** | Symbolic Mathematics | Enhanced core typing annotations across `sympy.utilities.decorator` to strengthen static type checking (closes `#28806`) — **[PR #50354](https://github.com/sympy/sympy/pull/50354)**. |
-| **[`semantica-agi/semantica`](https://github.com/semantica-agi/semantica)** | Vector Search & RAG | Persisted `vector_ids` and metadata across FAISS index save/load cycles (closes `#1272`), resolved fenced code indentation, and updated contributor architecture — **[PR #1314](https://github.com/semantica-agi/semantica/pull/1314)** • **[PR #1313](https://github.com/semantica-agi/semantica/pull/1313)** • **[PR #1315](https://github.com/semantica-agi/semantica/pull/1315)** • **[PR #1386](https://github.com/semantica-agi/semantica/pull/1386)**. |
-| **[`sqlfluff/sqlfluff`](https://github.com/sqlfluff/sqlfluff)** | SQL Parser & Linter | Reconciled DuckDB grammar AST parity by reclassifying `SUMMARIZE` under reserved keywords, updating SQL test fixtures, and regenerating parse trees verified across 9 pre-commit CI hooks — **[PR #8396](https://github.com/sqlfluff/sqlfluff/pull/8396)**. |
-| **[`ibis-project/ibis`](https://github.com/ibis-project/ibis)** | Portable Analytics | Implemented seamless type translation for `pl.Object` to `dt.Unknown` in the Polars backend, adding standalone client integration tests to prevent schema reflection crashes — **[PR #12086](https://github.com/ibis-project/ibis/pull/12086)**. |
-| **[`finos/opengeneris-scaler`](https://github.com/finos/opengeneris-scaler)** | Financial Infrastructure | Modernized typing architecture by replacing deprecated `typing` aliases with built-in generics across scaler pipelines (closes `#202`) — **[PR #93](https://github.com/finos/opengeneris-scaler/pull/93)**. |
-| **[`dheerajha/mcp-migrate`](https://github.com/dheerajha/mcp-migrate)** | Model Context Protocol | Hardened RD10 wire boundaries and authored comprehensive `ServerDiscoverFixer` test suites — **[PR #254](https://github.com/dheerajha/mcp-migrate/pull/254)**. |
-| **[`goldener-data/goldener`](https://github.com/goldener-data/goldener)** | Data Quality & Vectorizing | Patched vectorizer test assertions and corrected test method naming conventions in `TestGoldVectorizer` — **[PR #325](https://github.com/goldener-data/goldener/pull/325)**. |
-| **[`Hebbian-Robotics/hflow`](https://github.com/Hebbian-Robotics/hflow)** | Robotics & Curation | Refactored data curation pipelines to consolidate single-SELECT query validation rules directly into core libraries (closes `#280`) — **[PR #281](https://github.com/Hebbian-Robotics/hflow/pull/281)**. |
-| **[`scitex-ai/scitex-io`](https://github.com/scitex-ai/scitex-io)** | AI Infrastructure | Added round-trip serialization and invalid-extension test coverage for `load_feather` I/O utilities — **[PR #166](https://github.com/scitex-ai/scitex-io/pull/166)**. |
-| **[`sara-czasak/py-simple-wrap`](https://github.com/sara-czasak/py-simple-wrap)** | Application Security | Fortified database access helpers against SQL injection attacks with identifier whitelisting (`_check_if_valid`) and parameterized bindings, backed by a 52-test `pytest` suite — **[PR #199](https://github.com/sara-czasak/py-simple-wrap/pull/199)**. |
-| **[`collective/icalendar`](https://github.com/collective/icalendar)** | Standards & Tooling | Standardized public developer APIs and docstrings across parsing and serialization engines to comply with `Parameters:` style guides and strict Ruff linting (resolving `#1072`) — **[PR #1749](https://github.com/collective/icalendar/pull/1749)**. |
-| **[`David-Axel/Adexa`](https://github.com/David-Axel/Adexa)** | Security & Automated Repair | Authored 300+ lines of unit test suites validating AI automated repair strategies against SQL injection attack vectors — **[PR #10](https://github.com/David-Axel/Adexa/pull/10)**. |
-| **[`scikit-learn/scikit-learn`](https://github.com/scikit-learn/scikit-learn)** | Machine Learning | Clarified in-place array modifications for `copy=False` operations in `mutual_info_regression` — **[PR #34800](https://github.com/scikit-learn/scikit-learn/pull/34800)**. |
-
-#### 🔬 Detailed Engineering Deep-Dives
-
-> **🤖 LangChain | Vector Store Integrity & Schema Ingestion — [View PR #40079](https://github.com/langchain-ai/langchain/pull/40079)**  
-> **Context:** Ingestion pipelines allowed mismatched lengths between input text documents and provided `ids`, leading to silent indexing corruption in downstream vector stores (Issue #36203).  
-> **What I Built:** Implemented strict assertion and validation checks in `VectorStore.add_texts` ensuring equal dimensions between inputs and ID sequences prior to embedding dispatch. Added unit tests verifying defensive error raises on dimension mismatches. *(Stack: Python, LangChain, Vector Embeddings, Pytest)*  
-> **Direct Proof:** [PR #40079](https://github.com/langchain-ai/langchain/pull/40079)
-
-> **🧠 Semantica | FAISS Persistence & Markdown Parsing — [View PR #1314](https://github.com/semantica-agi/semantica/pull/1314) • [PR #1315](https://github.com/semantica-agi/semantica/pull/1315)**  
-> **Context:** Serializing FAISS indexes dropped explicit `vector_ids` and custom metadata mappings during save/load operations (Issue #1272). Concurrently, the markdown normalizer was stripping intentional whitespace within fenced code blocks.  
-> **What I Built:** Engineered persistent metadata storage alongside FAISS indexes to guarantee 1:1 ID parity across I/O cycles. Patched document normalizers to preserve indentation within code fences. Authored contributor guidelines to streamline external contributions. *(Stack: Python, FAISS, Vector Storage, AST Normalization)*  
-> **Direct Proof:** [PR #1314](https://github.com/semantica-agi/semantica/pull/1314) • [PR #1313](https://github.com/semantica-agi/semantica/pull/1313) • [PR #1315](https://github.com/semantica-agi/semantica/pull/1315) • [PR #1386](https://github.com/semantica-agi/semantica/pull/1386)
-
-> **🔍 SQLFluff | AST Parser Engine & Dialect Parity — [View PR #8396](https://github.com/sqlfluff/sqlfluff/pull/8396)**  
-> **Context:** DuckDB dialect queries using `SUMMARIZE` encountered grammar classification mismatches against the unreserved keyword tree.  
-> **What I Built:** Corrected keyword classifications in `dialect_duckdb.py` by relocating `SUMMARIZE` to `reserved_keywords`. Updated dialect fixtures, regenerated the fixture parse tree YAML, and ensured full compliance across all 9 pre-commit static analysis checks (`mypy`, `ruff`, `yamllint`, `doc8`, `codespell`). *(Stack: Python, SQLFluff AST, DuckDB, Pre-commit)*  
-> **Direct Proof:** [PR #8396](https://github.com/sqlfluff/sqlfluff/pull/8396) • [Commit `0397f6b`](https://github.com/sqlfluff/sqlfluff/pull/8396/commits/0397f6b58047a42097dfbd6a5957baa3e15fd526)
-
-> **📊 Ibis | Cross-Engine Type Translation & Schema Inference — [View PR #12086](https://github.com/ibis-project/ibis/pull/12086)**  
-> **Context:** Ingesting Polars tables with mixed or custom object types triggered unhandled `KeyError: Object` exceptions during schema reflection.  
-> **What I Built:** Extended `PolarType.to_ibis` to map both class and instance forms of `pl.Object` to `dt.Unknown(nullable=True)`. Designed a standalone client integration test in `test_client.py` using direct `ibis.polars.connect()` memtables to safeguard schema inference without external dataset dependencies. *(Stack: Python, Polars, Ibis, Pytest)*  
-> **Direct Proof:** [PR #12086](https://github.com/ibis-project/ibis/pull/12086)
-
-> **🛡️ py-simple-wrap | SQL Injection Mitigation & CRUD Testing — [View PR #199](https://github.com/sara-czasak/py-simple-wrap/pull/199)**  
-> **Context:** Database helper methods lacked validation guards against malicious input payloads in table and column identifiers.  
-> **What I Built:** Hardened database helpers with regex whitelisting (`_check_if_valid`) and mandatory parameterized tuple execution to block stacked queries and UNION-based injection attacks. Synced updates with upstream additions (`run_update`, `ExperimentalWarning`), restored module re-exports in `__init__.py`, and authored a comprehensive 52-test `pytest` harness. *(Stack: Python, SQLite3, Pytest, Application Security)*  
-> **Direct Proof:** [PR #199](https://github.com/sara-czasak/py-simple-wrap/pull/199)
-
-> **📚 icalendar | API Documentation Architecture & Ruff Linting — [View PR #1749](https://github.com/collective/icalendar/pull/1749)**  
-> **Context:** Public APIs across core calendar parsing and serialization engines contained inconsistent docstring formatting that violated community style specifications.  
-> **What I Built:** Refactored docstring headers to adhere to formal Sphinx/PEP `Parameters:` conventions across `parser_tools.py` and `cal/component.py` (resolving issue `#1072`). Enforced code cleanups across automated Ruff formatting and linting pipelines with zero regressions. *(Stack: Python, Ruff, Sphinx Docs, RFC 5545)*  
-> **Direct Proof:** [PR #1749](https://github.com/collective/icalendar/pull/1749)
-
-### 💡 High-Impact Engineering Highlights & CV Achievements
-
-> #### 🧠 Vector Ingestion & Storage Architecture
-> * **LangChain ([PR #40079](https://github.com/langchain-ai/langchain/pull/40079))** — Enforced strict dimensional boundary assertions in `VectorStore.add_texts`, eliminating silent metadata drift and corrupt indexing across text chunk ingestion pipelines (`closes #36203`).
-> * **Semantica ([PR #1314](https://github.com/semantica-agi/semantica/pull/1314) • [PR #1313](https://github.com/semantica-agi/semantica/pull/1313))** — Resolved serialization state desynchronization in FAISS vector stores by establishing atomic `vector_id` and document metadata persistence routines across index read/write cycles (`closes #1272`).
-
-> #### 🔍 AST Parser Engines & Dialect Parity
-> * **SQLFluff ([PR #8396](https://github.com/sqlfluff/sqlfluff/pull/8396))** — Diagnosed and reconciled DuckDB SQL grammar mismatches by reclassifying `SUMMARIZE` into dialect-reserved keywords, regenerating AST syntax tree YAML definitions, and passing an automated 9-hook static verification pipeline (`mypy`, `ruff`, `yamllint`, `doc8`, `codespell`).
-
-> #### 📊 Cross-Engine Type Translation & Schema Inference
-> * **Ibis ([PR #12086](https://github.com/ibis-project/ibis/pull/12086))** — Eliminated unhandled `KeyError: Object` exceptions by engineering schema reflection logic that maps Polars `pl.Object` structures cleanly to `dt.Unknown(nullable=True)` with standalone memtable integration tests.
-> * **SymPy ([PR #50354](https://github.com/sympy/sympy/pull/50354))** — Modernized type hints across `sympy.utilities.decorator` to reinforce strict static type checking and type inference during symbolic evaluations (`closes #28806`).
-
-> #### 🛡️ Application Security & SQL Injection Mitigation
-> * **py-simple-wrap ([PR #199](https://github.com/sara-czasak/py-simple-wrap/pull/199))** — Hardened database utilities against stacked queries and `UNION`-based injection attacks via regex identifier whitelisting (`_check_if_valid`) and mandatory parameterized tuple execution; authored a 52-test `pytest` harness.
-> * **Adexa ([PR #10](https://github.com/David-Axel/Adexa/pull/10))** — Designed 300+ lines of targeted `pytest` suites validating automated AI remediation engines against common web vulnerability vectors.
-
-> #### ⚡ Protocol Standardization & Pipeline Hardening
-> * **MCP Migrate ([PR #254](https://github.com/dheerajha/mcp-migrate/pull/254))** — Hardened RD10 wire boundaries for Model Context Protocol migrations and introduced the `ServerDiscoverFixer` test harness.
-> * **HFlow ([PR #281](https://github.com/Hebbian-Robotics/hflow/pull/281))** — Refactored data curation pipelines to isolate single-`SELECT` validation rules directly within core libraries (`closes #280`).
-> * **Scitex IO ([PR #166](https://github.com/scitex-ai/scitex-io/pull/166))** — Built round-trip binary Feather serialization validation checks and bad-extension error handlers.
-
-> #### 🔀 Advanced Version Control & Upstream Reconciliation
-> * **Git Workflows** — Maintained high branch hygiene across high-velocity multi-contributor upstream repositories using interactive rebasing, multi-file 3-way merge conflict resolution, hook automation, and safe force pushes via `--force-with-lease`.
+![GitHub Stats](https://github-readme-stats-fast.vercel.app/api?username=AhmadBilalDSA&show_icons=true&theme=tokyonight&hide_border=true&title_color=2088FF) ![Top Languages](https://github-readme-stats-fast.vercel.app/api/top-langs/?username=AhmadBilalDSA&layout=compact&theme=tokyonight&hide_border=true&title_color=2088FF)
 
 ---
 
-### 🚀 Featured Data Science & Machine Learning Projects
+## Stack
 
-| 📊 Project | ⚙️ Stack | 💡 Core Impact & Scope |
-| :--- | :--- | :--- |
-| **KSE-100 Financial Sentiment Analysis** | Python (NLTK), Pandas, APIs, Tableau | Built an automated news-scraping pipeline and used NLP sentiment analysis to correlate public news trends with KSE-100 stock price movements. |
-| **Predictive Modeling of Employee Turnover** | Python, Scikit-learn, Random Forest, Tableau | Analyzed HR metrics, engineered classification features, and deployed a tuned Random Forest model to flag employee attrition risk factors. |
-| **SpaceX Falcon 9 Landing Prediction** | Python, SQL, REST APIs, Plotly Dash | Executed end-to-end data collection, wrangling, and multi-model classification (SVM, Logistic Regression) visualized via an interactive web dashboard. |
-| **Ames Housing Real Estate Valuation** | Python, Pandas, XGBoost, Feature Engineering | Trained high-performance regression models handling 80+ features, utilizing log transformations and feature creation to minimize pricing error bounds. |
-| **Instacart Market Basket Analysis** | Pandas, Seaborn, EDA | Processed over 1M records using heavy `groupby` aggregations to map multi-product associations and user reorder frequencies. |
+![Skills](https://skillicons.dev/icons?i=python,mysql,postgres,git,github,vscode,linux&theme=dark)
+
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black) ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white) ![DuckDB](https://img.shields.io/badge/DuckDB-FFF000?style=for-the-badge&logo=duckdb&logoColor=black) ![Polars](https://img.shields.io/badge/Polars-CD792C?style=for-the-badge&logo=polars&logoColor=white) ![Ibis](https://img.shields.io/badge/Ibis-F55722?style=for-the-badge&logo=python&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white) ![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white) ![Ruff](https://img.shields.io/badge/Ruff-D7F9C4?style=for-the-badge&logo=ruff&logoColor=black)
 
 ---
 
-### 🛠️ Local-First Engineering & Systems Tooling
+## Experience
 
-> High-performance, air-gapped utilities built for low-latency developer workflows, local data reconciliation, and automated codebase governance:
+- **Power BI Developer & Instructor**, PNY Trainings (NAVTTC) *(Feb 2026 - May 2026)*
+  - Delivered 180+ training hours across 12 modules; 91% of learners reached proficiency; 23 graduates placed in roles within 90 days.
 
-| ⚡ Tool | 🎯 Focus & Architecture | 🛠️ Tech Stack | 🔗 Status |
-| :--- | :--- | :--- | :--- |
-| **`duck-diff`** | Embedded table & schema reconciliation engine for fast multi-million-row dataset diffing without cloud transit. | `DuckDB` `Python` `Arrow` | [![Repo](https://img.shields.io/badge/GitHub-duck--diff-2088FF?style=flat-square&logo=github)](https://github.com/AhmadBilalDSA/duck-diff) |
-| **`data-engine-benchmarks`** | Automated benchmarking matrix measuring throughput, peak memory usage, and vector speed across data engines. | `Polars` `DuckDB` `Pandas` | [![Repo](https://img.shields.io/badge/GitHub-benchmarks-2088FF?style=flat-square&logo=github)](https://github.com/AhmadBilalDSA/data-engine-benchmarks) |
-| **`repo-doctor`** | Local-first codebase scanner auditing leaked secrets, software licenses, dependency debt, and AI context hygiene. | `Python` `AST` `Git Hooks` | [![Repo](https://img.shields.io/badge/GitHub-repo--doctor-2088FF?style=flat-square&logo=github)](https://github.com/AhmadBilalDSA/repo-doctor) |
-| **`sqlean-lint`** | Lightweight static analysis engine detecting SQL anti-patterns, non-SARGable predicates, and join cartesian risks. | `Python` `SQLFluff` `CLI` | [![Repo](https://img.shields.io/badge/GitHub-sqlean--lint-2088FF?style=flat-square&logo=github)](https://github.com/AhmadBilalDSA/sqlean-lint) |
-| **`dbt-optimizer`** | Dependency DAG and compilation cost analyzer highlighting model bloat and high-latency transform paths. | `dbt-core` `Python` `NetworkX` | [![Repo](https://img.shields.io/badge/GitHub-dbt--optimizer-2088FF?style=flat-square&logo=github)](https://github.com/AhmadBilalDSA/dbt-optimizer) |
-| **`github-issue-hunter`** | High-speed aggregator and telemetry board indexing and filtering open issues across high-volume open-source repos. | `Python` `REST APIs` `SQLite` | [![Repo](https://img.shields.io/badge/GitHub-issue--hunter-2088FF?style=flat-square&logo=github)](https://github.com/AhmadBilalDSA/github-issue-hunter) |
+- **Data Analyst Intern**, PNY Trainings *(Jun 2024 - Aug 2024)*
+  - Marketing analysis that saved PKR 280K/month; +37% qualified leads; 2.4x close rate.
 
----
+- **Junior Data Scientist**, Timmy's Pizza *(Nov 2023 - Dec 2025)*
+  - Analyzed 18,400 delivery logs; cut average delivery time 38 to 26 minutes (-31%); reduced waste 7.3% to 3.1% across 14 outlets.
 
-### 👨‍💻 Professional Experience
-
-* 🏫 **Power BI Developer & Instructor | PNY Trainings (NAVTTC)** *(Feb 2026 – May 2026)*
-  * Engineered and delivered comprehensive technical curriculum in Power BI, SQL, and Python; established best practices for ETL pipelines and advanced data modeling.
-* 🍕 **Junior Data Scientist | Timmy's Pizza** *(Nov 2023 – Dec 2025)*
-  * Optimized local delivery routes, staffing schedules, and supply chain visibility using Pandas and interactive Power BI dashboards.
-* 💻 **Data Analyst Intern | PNY Trainings** *(June 2025 – Present)*
-  * Spearheaded a data-driven marketing analysis for a key e-commerce client, leveraging Power BI and Advanced Excel to project a 15% increase in customer engagement.
-  * Automated a reporting pipeline using Python (Pandas) and SQL, reducing manual data processing for weekly sales reports by 10 hours per month and improving efficiency by 30%.
-* ⛽ **Procurement Intern | Sui Northern Gas Pipelines Limited (SNGPL)**
-  * Analyzed vendor performance metrics for a portfolio of 50+ suppliers, creating KPI dashboards in Excel that contributed to an estimated 5% reduction in procurement costs.
-  * Streamlined the digital record-keeping process for Purchase Orders, designing a new workflow that reduced document retrieval times by over 50%.
+- **Procurement Intern**, Sui Northern Gas Pipelines Limited (SNGPL) *(Jul 2023 - Sep 2023)*
+  - Shortened vendor evaluation cycle from 12 days to 4; PKR 4.7M saved; on-time delivery 71% to 89%.
 
 ---
 
-### 📜 Education & Certifications
-* 🎓 **Bachelor of Science in Accounting and Finance** — Hailey College of Commerce, University of the Punjab
-* 🏆 **IBM Data Analyst Professional Certificate**
-* 🏆 **Google Advanced Data Analytics Professional Certificate**
-* 🏆 **IBM Data Science Professional Certificate**
-* 🏆 **IBM Data Engineering Professional Certificate**
-* 🏆 **Google Digital Marketing & E-commerce Professional Certificate**
+## Education & Certifications
+
+- **BS (Hons) Accounting and Finance**, Hailey College of Commerce, University of the Punjab (2020 - 2024)
+- IBM Data Analyst Professional Certificate
+- IBM Data Science Professional Certificate
+- Data Analysis and Visualization Foundations (IBM)
+- Google Advanced Data Analytics Professional Certificate
+- Advanced Search Engine Optimization Strategies
 
 ---
 
-### 🐍 Contribution Activity Matrix
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AhmadBilalDSA/AhmadBilalDSA/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AhmadBilalDSA/AhmadBilalDSA/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/AhmadBilalDSA/AhmadBilalDSA/output/github-contribution-grid-snake.svg">
-  </picture>
-</p>
-
-<p align="center">
-  <code>[ Git Push / PR ] ──► [ GitHub Actions ] ──► [ Linting & PyTest Matrix ] ──► [ Deploy / Publish ]</code>
-</p>
+![Snake](https://raw.githubusercontent.com/AhmadBilalDSA/AhmadBilalDSA/output/github-contribution-grid-snake.svg)
