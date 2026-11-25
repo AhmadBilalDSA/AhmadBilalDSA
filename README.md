@@ -1,14 +1,14 @@
 # Ahmad Bilal
 
-Data analyst & analytics engineer. I build local-first data tools (sqlean-lint, duck-diff) and run PayoutDelta, an open directory of freelance payout fees. Upstream contributor to LangChain, SQLFluff, and Ibis.
+Data analyst & analytics engineer. I build local-first data tools (sqlean-lint, duck-diff) and run PayoutDelta, an open directory of freelance payout fees. Merged contributions to TiDB, dbt-duckdb, Semantica and other data and Python projects.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ahmadbilaldes/) [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kierninjaw@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ahmadbilaldes/) [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kierninja@gmail.com)
 
 ---
 
 ## What I'm working on
 
-- **[PayoutDelta](https://github.com/AhmadBilalDSA/payout-delta):** open directory of 131 payout corridors (Payoneer, Wise, PayPal, bank SWIFT, local rails) with a live fee estimator. [Live site](https://ahmadbilaldsa.github.io/payout-delta)
+- **[PayoutDelta](https://github.com/AhmadBilalDSA/payout-delta):** open directory of 208 payout corridors (Payoneer, Wise, PayPal, bank SWIFT, local rails) with a live fee estimator. [Live site](https://ahmadbilaldsa.github.io/payout-delta)
 - **[sqlean-lint](https://github.com/AhmadBilalDSA/sqlean-lint):** local-first SQL linter: AST-based detection of non-SARGable predicates, Cartesian joins, and schema hazards. Four dialects, under 110 MB peak.
 - **[duck-diff](https://github.com/AhmadBilalDSA/duck-diff):** constant-memory table and schema diff engine on DuckDB: keyed/keyless reconciliation across Parquet, CSV, JSON, and SQLite.
 
@@ -16,20 +16,23 @@ Data analyst & analytics engineer. I build local-first data tools (sqlean-lint, 
 
 ## Open-source contributions
 
-Every PR below is real and merged upstream (or closed as completed). Links go to the actual pull requests.
+Merged upstream. Links go to the actual pull requests.
 
 | Project | PR | What changed |
-|---|---|
-| `langchain-ai/langchain` | [#40079](https://github.com/langchain-ai/langchain/pull/40079) | Validate `ids` length matches input chunks in `VectorStore.add_texts` (closes #36203) |
-| `sqlfluff/sqlfluff` | [#8396](https://github.com/sqlfluff/sqlfluff/pull/8396) | Reclassify `SUMMARIZE` as a reserved keyword in the DuckDB dialect; regenerate parse fixtures |
-| `ibis-project/ibis` | [#12086](https://github.com/ibis-project/ibis/pull/12086) | Map Polars `pl.Object` to `dt.Unknown` so schema reflection stops crashing on mixed types |
-| `semantica-agi/semantica` | [#1313](https://github.com/semantica-agi/semantica/pull/1313) · [#1314](https://github.com/semantica-agi/semantica/pull/1314) · [#1315](https://github.com/semantica-agi/semantica/pull/1315) | Persist `vector_ids` and metadata across FAISS index save/load; fix fenced-code indentation |
-| `sara-czasak/py-simple-wrap` | [#199](https://github.com/sara-czasak/py-simple-wrap/pull/199) | SQL-injection hardening (identifier whitelist + parameterized queries) with a 52-test suite |
+|---|---|---|
+| `pingcap/tidb` | [#70912](https://github.com/pingcap/tidb/pull/70912) | Fix IndexMerge union truncating at 1024 rows with ORDER BY and LIMIT |
+| `duckdb/dbt-duckdb` | [#835](https://github.com/duckdb/dbt-duckdb/pull/835) | Make resource module import and setrlimit conditional for Windows compatibility |
+| `semantica-agi/semantica` | [#1314](https://github.com/semantica-agi/semantica/pull/1314) · [#1315](https://github.com/semantica-agi/semantica/pull/1315) | Persist `vector_ids` and metadata across FAISS index save/load; preserve indentation inside fenced code blocks |
+| `FROWNINGdev/orm-lens` | [#332](https://github.com/FROWNINGdev/orm-lens/pull/332) | Ignore implicit id on the migrated side after RenameField (schema drift fix) |
+| `srpadmanabhuni/agentest` | [#264](https://github.com/srpadmanabhuni/agentest/pull/264) · [#267](https://github.com/srpadmanabhuni/agentest/pull/267) | Report unlabelled blind-test misses beside catalogue-scoped recall; offline Vercel AI SDK UIMessage import example |
+| `goldener-data/goldener` | [#475](https://github.com/goldener-data/goldener/pull/475) · [#325](https://github.com/goldener-data/goldener/pull/325) | Expose and restore GoldZCoreSelectionTool random state; fix vectorizer test naming |
 | `Hebbian-Robotics/hflow` | [#281](https://github.com/Hebbian-Robotics/hflow/pull/281) | Consolidate the single-SELECT validation rule into the core library |
-| `goldener-data/goldener` | [#325](https://github.com/goldener-data/goldener/pull/325) | Fix vectorizer test assertions and naming |
+| `dheerajjha/mcp-migrate` | [#256](https://github.com/dheerajjha/mcp-migrate/pull/256) | Harden rule R010 wire boundary against prefix collision |
+| `sara-czasak/py-simple-wrap` | [#199](https://github.com/sara-czasak/py-simple-wrap/pull/199) | SQL-injection hardening (identifier whitelist + parameterized queries) with a 52-test suite |
 | `scitex-ai/scitex-io` | [#166](https://github.com/scitex-ai/scitex-io/pull/166) | Feather round-trip and invalid-extension test coverage |
 | `David-Axel/Adexa` | [#10](https://github.com/David-Axel/Adexa/pull/10) | Unit tests for SQL-injection repair strategies |
-| `scikit-learn/scikit-learn` | [#34800](https://github.com/scikit-learn/scikit-learn/pull/34800) | Docs: clarify in-place behavior of `copy=False` in `mutual_info_regression` |
+
+Also authored (closed, not merged): LangChain [#40079](https://github.com/langchain-ai/langchain/pull/40079), SQLFluff [#8396](https://github.com/sqlfluff/sqlfluff/pull/8396), Ibis [#12086](https://github.com/ibis-project/ibis/pull/12086), scikit-learn [#34800](https://github.com/scikit-learn/scikit-learn/pull/34800).
 
 ---
 
